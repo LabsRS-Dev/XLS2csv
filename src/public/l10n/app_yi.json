@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "באַשטעטיקן",
+                "toolbar_feedback": "באַמערקונגען",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "הילף"
+            },
+            "toolBar": {
+                "btnImport": "אַרייַנפיר טעקע",
+                "btnClear": "קלאָר",
+                "btnConvert": "קאָנווערט אַלע"
+            },
+            "importDialog": {
+                "title": "ימפּאָרט * קסלס טעקע",
+                "prompt": "אַרייַנפיר"
+            },
+            "output": {
+                "outputLabel": "אָוטפּוט Directory",
+                "btnSelect": "קלייַבן",
+                "selectOutputDialog": {
+                    "title": "סעלעקטירן רעזולטאַט דירעקטארי",
+                    "prompt": "קלייַבן"
+                },
+                "validChecker": {
+                    "validPathMsg": "עס איז נישט אַ גילטיק טעקע דרך",
+                    "notWritablePathMsg": "ניט שרייַבן דערלויבעניש"
+                }
+            },
+            "appDescription": "באַטש גער קסלס טעקעס"
+        },
+        "view_config": {
+            "windowTitle": "עקספּאָרט קאָנפיגוראַטיאָן",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "סיסטעם ניט ויסצאָלן",
+            "btnApplyAll": "צולייגן צו אַלע",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "עקספּאָרט בלויז אויסגעקליבן זאכן",
+                "InformationCaption": "אינפֿאָרמאַציע",
+                "PreviewCaption": "פאָרויסיקע ווייַזונג"
+            },
+            "PageOthers": {
+                "encodingLabel": "קאָודינג",
+                "separatorLabel": "סעפּאַראַטאָר"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "דעם טעקע קענען ניט זיין לייענען דורך ניצן אַ אופֿן XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "אָפּציעס",
+            "langSelectLabel": "היגע שפּראַך",
+            "langSelectHint": "באַשטימען צו אן אנדער שפּראַך ריקווייערז ריסטאַרטינג די אַפּלאַקיישאַן",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "поставување",
+                "toolbar_feedback": "Повратна информација",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "помогне"
+            },
+            "toolBar": {
+                "btnImport": "увоз на датотеки",
+                "btnClear": "Отстрани",
+                "btnConvert": "конвертирате сите"
+            },
+            "importDialog": {
+                "title": "Увоз * .xls датотека",
+                "prompt": "увоз"
+            },
+            "output": {
+                "outputLabel": "излез директориум",
+                "btnSelect": "изберете",
+                "selectOutputDialog": {
+                    "title": "Изберете излез директориум",
+                    "prompt": "изберете"
+                },
+                "validChecker": {
+                    "validPathMsg": "Тоа не е валидна патеката на папката",
+                    "notWritablePathMsg": "Нема дозвола за запишување"
+                }
+            },
+            "appDescription": "Серија конвертирате XLS датотеки"
+        },
+        "view_config": {
+            "windowTitle": "извоз на конфигурација",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "стандардната системска",
+            "btnApplyAll": "Важат за сите",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Извезува само избраните предмети",
+                "InformationCaption": "информации",
+                "PreviewCaption": "преглед"
+            },
+            "PageOthers": {
+                "encodingLabel": "кодирање",
+                "separatorLabel": "сепаратор"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Оваа датотека не може да се чита со помош на метод XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "опции",
+            "langSelectLabel": "локалниот јазик",
+            "langSelectHint": "Промена на јазикот бара рестартирање на апликацијата",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

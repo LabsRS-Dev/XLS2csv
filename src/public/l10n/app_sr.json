@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Подешавање",
+                "toolbar_feedback": "Повратна информација",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Помоћ"
+            },
+            "toolBar": {
+                "btnImport": "импорт фајла",
+                "btnClear": "Јасно",
+                "btnConvert": "претворити све"
+            },
+            "importDialog": {
+                "title": "Импорт * .клс фајл",
+                "prompt": "Увоз"
+            },
+            "output": {
+                "outputLabel": "izlazni директоријум",
+                "btnSelect": "одабрати",
+                "selectOutputDialog": {
+                    "title": "Избор излаз директоријум",
+                    "prompt": "одабрати"
+                },
+                "validChecker": {
+                    "validPathMsg": "То није валидна путања фолдера",
+                    "notWritablePathMsg": "Но писање дозвола"
+                }
+            },
+            "appDescription": "Хрпа претворити КСЛС фајлова"
+        },
+        "view_config": {
+            "windowTitle": "Извоз Конфигурација",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "Систем подразумевани",
+            "btnApplyAll": "Важе за све",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Извози само изабране ставке",
+                "InformationCaption": "информације",
+                "PreviewCaption": "Преглед"
+            },
+            "PageOthers": {
+                "encodingLabel": "шифрирање",
+                "separatorLabel": "сепаратор"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Овај фајл не може да се чита помоћу методе КСЛС.реад"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Опције",
+            "langSelectLabel": "lokalni језик",
+            "langSelectHint": "Пребаци се на другом језику захтева да поново покренете апликацију",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

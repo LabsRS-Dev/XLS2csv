@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ການຕັ້ງຄ່າ",
+                "toolbar_feedback": "ຜົນຕອບຮັບ",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "ຊ່ວຍເຫຼືອ"
+            },
+            "toolBar": {
+                "btnImport": "ນໍາເຂົ້າໄຟລ໌",
+                "btnClear": "ຈະແຈ້ງ",
+                "btnConvert": "ແປງ"
+            },
+            "importDialog": {
+                "title": "ການນໍາເຂົ້າໄຟ * .xls",
+                "prompt": "ການນໍາເຂົ້າ"
+            },
+            "output": {
+                "outputLabel": "ລະບົບການຜະລິດ",
+                "btnSelect": "ເລືອກ",
+                "selectOutputDialog": {
+                    "title": "ເລືອກເອົາລະບົບການຜະລິດ",
+                    "prompt": "ເລືອກ"
+                },
+                "validChecker": {
+                    "validPathMsg": "ມັນບໍ່ແມ່ນເສັ້ນທາງໂຟເດີທີ່ຖືກຕ້ອງ",
+                    "notWritablePathMsg": "ບໍ່ມີການອະນຸຍາດຂຽນ"
+                }
+            },
+            "appDescription": "ໄຟ XLS Batch ປ່ຽນໃຈເຫລື້ອມໃສ"
+        },
+        "view_config": {
+            "windowTitle": "ການຕັ້ງຄ່າການສົ່ງອອກ",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "ເລີ່ມຕົ້ນລະບົບ",
+            "btnApplyAll": "ສະຫມັກຂໍເອົາທັງຫມົດ",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "ສົ່ງອອກລາຍການຄັດເລືອກພຽງແຕ່",
+                "InformationCaption": "ຂໍ້ມູນຂ່າວສານ",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "ການເຂົ້າລະຫັດ",
+                "separatorLabel": "ແຍກຕ່າງຫາກ"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ໄຟລ໌ນີ້ບໍ່ສາມາດອ່ານໄດ້ໂດຍການນໍາໃຊ້ວິທີການ XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "ທາງເລືອກໃນການ",
+            "langSelectLabel": "ພາສາທ້ອງຖິ່ນ",
+            "langSelectHint": "ປ່ຽນໄປເປັນພາສາອື່ນຮຽກຮ້ອງໃຫ້ເລີ່ມການເຮັດວຽກຄໍາຮ້ອງສະຫມັກ",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

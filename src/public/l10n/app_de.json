@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Rahmen",
+                "toolbar_feedback": "Feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Hilfe"
+            },
+            "toolBar": {
+                "btnImport": "Datei importieren",
+                "btnClear": "Klar",
+                "btnConvert": "Wandeln Sie alle"
+            },
+            "importDialog": {
+                "title": "Import * .xls-Datei",
+                "prompt": "Einführen"
+            },
+            "output": {
+                "outputLabel": "Ausgabe Verzeichnis",
+                "btnSelect": "wählen",
+                "selectOutputDialog": {
+                    "title": "Wählen Sie das Ausgabeverzeichnis",
+                    "prompt": "wählen"
+                },
+                "validChecker": {
+                    "validPathMsg": "Es ist kein gültiger Ordnerpfad",
+                    "notWritablePathMsg": "Keine Schreibberechtigung"
+                }
+            },
+            "appDescription": "Batch-Konvertierung von XLS-Dateien"
+        },
+        "view_config": {
+            "windowTitle": "Konfiguration exportieren",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "Systemfehler",
+            "btnApplyAll": "Auf alle anwenden",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exportieren Sie nur ausgewählte Artikel",
+                "InformationCaption": "Information",
+                "PreviewCaption": "Vorschau"
+            },
+            "PageOthers": {
+                "encodingLabel": "Verschlüsselung",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Diese Datei kann nicht unter Verwendung eines Verfahrens gelesen werden XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Optionen",
+            "langSelectLabel": "Lokale Sprache",
+            "langSelectHint": "Wechseln Sie in einer anderen Sprache benötigt einen Neustart der Anwendung",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,394 @@
+@import "defind";
+
+@g_translatey_height: 100px;
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+
+  font-family: @g_font_family;
+  color: @g_font_color;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  .k-button {
+    font-size: @g_ui_fontSize;
+  }
+
+  .ref_g_scrollbar_black();
+
+}
+
+body, html, #root, #root > div {
+  margin: 0;
+  padding: 0;
+  background: @g_background_color;
+  height: 100%;
+  width: 100%;
+}
+
+header, footer {
+  transition: transform 100ms;
+  -moz-transition: -moz-transform 100ms;
+  -webkit-transition: -webkit-transform 100ms;
+}
+
+.focused header {
+  transform: translatey(-@g_translatey_height);
+  -moz-transform: translatey(-@g_translatey_height);
+  -webkit-transform: translatey(-@g_translatey_height);
+}
+
+.focused footer {
+  transform: translatey(@g_translatey_height);
+  -moz-transform: translatey(@g_translatey_height);
+  -webkit-transform: translatey(@g_translatey_height);
+}
+
+/***************************
+ * Header
+***************************/
+header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  -webkit-box-shadow: 0 0 20px #000;
+
+  background-color: @g_background_color;
+  background-image: @g_background_linear-gradient;
+
+  padding: 20px;
+  color: white;
+
+  leftArea {
+    img {
+      width: 52px;
+      display: inline-block;
+      box-shadow: 0 0 20px #000;
+    }
+
+    label {
+      float: right;
+      font-size: 1.2em;
+    }
+
+    input {
+      background: #222;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid #555;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      border-radius: 16px;
+      color: white;
+      font-size: 1em;
+      padding: 2px 5px;
+      outline: 0;
+    }
+  }
+
+  rightArea {
+    position: fixed;
+    right: 30px;
+
+    .k-button {
+      font-size: @g_ui_fontSize;
+    }
+  }
+}
+
+/***************************
+ * Footer
+***************************/
+
+footer {
+  color: @g_font_color;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  height: @g_translatey_height;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  -webkit-box-shadow: 0 0 20px #000;
+
+  background-color: @g_background_color;
+  background-image: @g_background_linear-gradient;
+
+  ///: 内部元素采用列视图
+  .compatibility-display-flex;
+  .compatibility-flex-flow(row wrap);
+  .compatibility-justify-content(space-between);
+  .compatibility-align-items(stretch);
+
+  @group_width: 80%;
+  leftArea {
+    display: table;
+    height: 100%;
+    width: @group_width;
+    font-size: @g_ui_fontSize;
+
+    group {
+      display: table-cell;
+      padding: 20px;
+      vertical-align: middle;
+
+      .k-combobox {
+        width: (@group_width - 10%);
+      }
+
+      span[tag-id="validChecker"] {
+        color: orange;
+        font-size: @g_ui_fontSize;
+      }
+    }
+  }
+
+  rightArea {
+    display: table;
+    height: 100%;
+    width: 1-@group_width;
+
+    group {
+      display: table-cell;
+      padding: 20px;
+      vertical-align: middle;
+
+    }
+  }
+
+}
+
+.scroll-arrow {
+  opacity: .3;
+  transition: opacity 200ms, background-color 200ms, color 200ms;
+  -moz-transition: opacity 200ms, background-color 200ms, color 200ms;
+  -webkit-transition: opacity 200ms, background-color 200ms, color 200ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: transparent;
+  z-index: 2;
+  height: 30px;
+  width: 30px;
+  margin: 26px 20px 24px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 2em;
+  padding: 2px;
+  font-family: sans-serif;
+  cursor: default;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+footer:hover .scroll-arrow {
+  opacity: 1;
+  background: #ffd200;
+  color: @g_font_color;
+}
+
+#scroll-right {
+  left: auto;
+  right: 0;
+}
+
+/***************************
+ * Main
+***************************/
+#image-container {
+  height: 100%;
+  width: 100%;
+  display: table;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+#image-container #wrap {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+// 处于焦点的状态
+.focused {
+  #image-container {
+    #wrap {
+      //vertical-align: baseline;
+    }
+  }
+}
+
+/***************************
+ * Wrap
+***************************/
+.wrap-window {
+  background: @g_background_img;
+}
+
+/***************************
+ * Wrap
+***************************/
+
+#wrap {
+  height: @c_wrap_height;
+  width: @c_wrap_width;
+  white-space: nowrap;
+  border: 1px solid rgba(255, 255, 255, .2);
+  .commonShadow();
+
+  background: @g_background_img;
+
+  toolbar {
+    text-align: right;
+  }
+
+  dataListView {
+    background-color: @g_background_color;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px #000;
+    -moz-box-shadow: 0 0 20px #000;
+    -webkit-box-shadow: 0 0 20px #000;
+
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    height: 30em;
+
+    //加滚动效果
+    overflow-y: scroll;
+    overflow-x: scroll;
+
+    /////////////////////////////////////////////////////////////////////////
+    fileObject {
+      text-align: left;
+      display: block;
+      white-space: nowrap;
+
+      background-image: @g_background_linear-gradient;
+
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+
+      padding: 12px;
+      margin: 5px 12px;
+
+      content {
+        ///: 内部元素采用列视图
+        .compatibility-display-flex;
+        .compatibility-flex-flow(row wrap);
+        .compatibility-justify-content(space-between);
+        .compatibility-align-items(stretch);
+      }
+
+      progressbar {
+        display: block;
+        z-index: 99;
+        height: 4px;
+        width: 0%;
+      }
+
+      &:hover {
+        //transform:skew(20deg);     // 倾斜角度
+        //transform: rotate(360deg); // 旋转
+        //transform: scale(0.9);     // 放大缩小
+        transition: All 0.4s ease-in-out;
+        background-image: none, linear-gradient(to bottom, rgba(61, 135, 250, 0.6) 0, rgba(104, 203, 250, 0.9) 100%);
+      }
+
+    }
+  }
+
+  .layer-import{
+    z-index: 11;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    margin-left: -120px;
+    margin-top: -84px;
+
+    button{
+      width: 240px;
+      height: 168px;
+
+      -moz-border-radius: 16px;
+      -webkit-border-radius: 16px;
+      border-radius: 16px;
+    }
+  }
+
+}
+
+/* AeroViewr Logo */
+
+.appLogo {
+  font-weight: normal;
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+
+  a {
+    color: @colorAppName;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+
+    span {
+      margin: 32px;
+      font-weight: normal;
+      font-size: 18px;
+      color: @colorAppDescription;
+    }
+  }
+}
+
+/* Small screen fallback */
+
+@media only screen and (max-device-width: 1024px) {
+
+  html,
+  body,
+  #image-wrap,
+  #image-inner-wrap {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transform: translatez(0);
+  }
+
+  #image-inner-wrap .loading,
+  #image-inner-wrap .image,
+  #details {
+    height: 400px;
+  }
+
+  #image-inner-wrap {
+    height: 402px;
+  }
+
+  #details.visible {
+    width: 330px;
+  }
+
+  #details > div {
+    width: 300px;
+  }
+
+}
+

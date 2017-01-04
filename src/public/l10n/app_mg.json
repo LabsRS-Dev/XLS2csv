@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Setting",
+                "toolbar_feedback": "Feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Vonjeo"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "Clear",
+                "btnConvert": "niova fo rehetra"
+            },
+            "importDialog": {
+                "title": "Import * .xls rakitra",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "Output Directory",
+                "btnSelect": "mifidy",
+                "selectOutputDialog": {
+                    "title": "Select output Directory",
+                    "prompt": "mifidy"
+                },
+                "validChecker": {
+                    "validPathMsg": "Tsy misy manan-kery fampirimana lalana",
+                    "notWritablePathMsg": "No soraty alalana"
+                }
+            },
+            "appDescription": "Batch niova fo XLS raki-daza"
+        },
+        "view_config": {
+            "windowTitle": "Export Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "rafitra toerana misy anao",
+            "btnApplyAll": "Ampiharo ny Rehetra",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Pirenena ihany no voafantina entana",
+                "InformationCaption": "vaovao",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "Coding",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Zavatra rakitra tsy azo vakina amin'ny alalan'ny fampiasana ny fomba XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Options",
+            "langSelectLabel": "Local teny",
+            "langSelectHint": "Switch to teny hafa mitaky famerenana ny fampiharana",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

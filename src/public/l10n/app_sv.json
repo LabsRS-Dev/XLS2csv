@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Miljö",
+                "toolbar_feedback": "Återkoppling",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Hjälp"
+            },
+            "toolBar": {
+                "btnImport": "importfil",
+                "btnClear": "Klar",
+                "btnConvert": "konvertera alla"
+            },
+            "importDialog": {
+                "title": "Import * xls-fil",
+                "prompt": "Importera"
+            },
+            "output": {
+                "outputLabel": "Utmatningsmapp",
+                "btnSelect": "välja",
+                "selectOutputDialog": {
+                    "title": "Välj utgång katalog",
+                    "prompt": "välja"
+                },
+                "validChecker": {
+                    "validPathMsg": "Det är inte en giltig sökväg",
+                    "notWritablePathMsg": "Inga skrivrättigheter"
+                }
+            },
+            "appDescription": "Parti konvertera XLS-filer"
+        },
+        "view_config": {
+            "windowTitle": "export Konfiguration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "systemfel",
+            "btnApplyAll": "Tillämpas på alla",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exportera endast utvalda objekt",
+                "InformationCaption": "information",
+                "PreviewCaption": "Förhandsvisning"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodning",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Denna fil kan inte läsas med hjälp av en metod XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Val",
+            "langSelectLabel": "lokala språket",
+            "langSelectHint": "Växla till ett annat språk kräver omstart av ansökan",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

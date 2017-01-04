@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "nastavenie",
+                "toolbar_feedback": "spätná väzba",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Pomoc"
+            },
+            "toolBar": {
+                "btnImport": "import súborov",
+                "btnClear": "jasný",
+                "btnConvert": "previesť všetky"
+            },
+            "importDialog": {
+                "title": "Import * .xls súbor",
+                "prompt": "import"
+            },
+            "output": {
+                "outputLabel": "výstupný adresár",
+                "btnSelect": "vybrať",
+                "selectOutputDialog": {
+                    "title": "Vybrať výstupný adresár",
+                    "prompt": "vybrať"
+                },
+                "validChecker": {
+                    "validPathMsg": "Nejedná sa o platný cestu k priečinku",
+                    "notWritablePathMsg": "Bez povolenia zápisu"
+                }
+            },
+            "appDescription": "XLS dávkové konverziu"
+        },
+        "view_config": {
+            "windowTitle": "Konfigurácia Export",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "predvolený systém",
+            "btnApplyAll": "Použiť na všetko",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exportovať iba vybrané položky",
+                "InformationCaption": "informácie",
+                "PreviewCaption": "Náhľad"
+            },
+            "PageOthers": {
+                "encodingLabel": "kódovanie",
+                "separatorLabel": "oddeľovač"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Tento súbor sa nedá čítať pomocou metódy XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "možnosti",
+            "langSelectLabel": "miestny jazyk",
+            "langSelectHint": "Prepnutie do iného jazyka vyžaduje reštart aplikácie",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

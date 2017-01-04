@@ -1,0 +1,338 @@
+/***************************
+ * 通用设置
+***************************/
+.text-muted {
+  color: #e2e2e2;
+}
+.ref-content-section {
+  border: 1px solid #f2f2f2;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=28);
+  /*-ms-filter must come before filter*/
+  filter: alpha(opacity=28);
+  /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+  /*All filters must be placed together*/
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+.commonShadow {
+  padding: 0 30px;
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.commonAside {
+  flex: 1 auto;
+}
+.compatibility-display-flex {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.ref_g_scrollbar_black {
+  /***
+*** 滚动条部分
+http://www.xuanfengge.com/css3-webkit-scrollbar.html
+::-webkit-scrollbar 滚动条整体部分
+::-webkit-scrollbar-thumb  滚动条里面的小方块，能向上向下移动（或往左往右移动，取决于是垂直滚动条还是水平滚动条）
+::-webkit-scrollbar-track  滚动条的轨道（里面装有Thumb）
+::-webkit-scrollbar-button 滚动条的轨道的两端按钮，允许通过点击微调小方块的位置。
+::-webkit-scrollbar-track-piece 内层轨道，滚动条中间部分（除去）
+::-webkit-scrollbar-corner 边角，即两个滚动条的交汇处
+::-webkit-resizer 两个滚动条的交汇处上用于通过拖动调整元素大小的小控件
+***/
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar {
+  height: 11px;
+  width: 11px;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:start:decrement,
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:end:increment {
+  display: block;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:vertical:start:increment,
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal {
+  border-style: solid;
+  border-color: transparent;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+  background-clip: padding-box;
+  background-color: #fff;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+  background-clip: padding-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 28px;
+  padding-top: 100;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:hover {
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:active {
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal {
+  border-width: 0;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:hover {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:active {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.14), inset -1px -1px 0 rgba(0, 0, 0, 0.07);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ref_g_scrollbar_black ::-webkit-resizer {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.style_table1 {
+  /* Table 1 Style */
+}
+.style_table1 table.table1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 1.4em;
+  font-style: normal;
+  border-collapse: separate;
+}
+.style_table1 .table1 thead th {
+  padding: 15px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #568F23;
+  border: 1px solid #93CE37;
+  border-bottom: 3px solid #9ED929;
+  background-color: #9DD929;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.02, #7bc043), color-stop(0.51, #8bc642), color-stop(0.87, #9ed929));
+  background: -moz-linear-gradient(center bottom, #7bc043 2%, #8bc642 51%, #9ed929 87%);
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.style_table1 .table1 thead th:empty {
+  background: transparent;
+  border: none;
+}
+.style_table1 .table1 tbody th {
+  color: #fff;
+  text-shadow: 1px 1px 1px #568F23;
+  background-color: #9DD929;
+  border: 1px solid #93CE37;
+  border-right: 3px solid #9ED929;
+  padding: 0px 10px;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0.02, #9ed929), color-stop(0.51, #8bc642), color-stop(0.87, #7bc043));
+  background: -moz-linear-gradient(left bottom, #9ed929 2%, #8bc642 51%, #7bc043 87%);
+  -moz-border-radius: 5px 0px 0px 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.style_table1 .table1 tfoot td {
+  color: #9CD009;
+  font-size: 32px;
+  text-align: center;
+  padding: 10px 0px;
+  text-shadow: 1px 1px 1px #444;
+}
+.style_table1 .table1 tfoot th {
+  color: #666;
+}
+.style_table1 .table1 tbody td {
+  padding: 10px;
+  text-align: center;
+  background-color: #DEF3CA;
+  border: 2px solid #E7EFE0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #666;
+  text-shadow: 1px 1px 1px #fff;
+  text-transform: capitalize;
+}
+.wrap-window.k-window-content.k-content {
+  font-size: 11px;
+}
+.wrap-window.k-window-content.k-content .k-button {
+  font-family: 'Myriad Set Pro', 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  min-width: 64px;
+}
+.wrap-window.k-window-content.k-content .config-info {
+  border: 1px solid #f2f2f2;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=28);
+  /*-ms-filter must come before filter*/
+  filter: alpha(opacity=28);
+  /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+  /*All filters must be placed together*/
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  border: none !important;
+}
+.wrap-window.k-window-content.k-content .config-tabs {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  border-radius: 8px;
+}
+.wrap-window.k-window-content.k-content .config-tabs ul {
+  font-weight: bold;
+  text-transform: none;
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section {
+  border: 1px solid #f2f2f2;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=28);
+  /*-ms-filter must come before filter*/
+  filter: alpha(opacity=28);
+  /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+  /*All filters must be placed together*/
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  border: none !important;
+  /* Table 1 Style */
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section h4 {
+  text-transform: capitalize;
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section table.table1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 1.4em;
+  font-style: normal;
+  border-collapse: separate;
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section .table1 thead th {
+  padding: 15px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #568F23;
+  border: 1px solid #93CE37;
+  border-bottom: 3px solid #9ED929;
+  background-color: #9DD929;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.02, #7bc043), color-stop(0.51, #8bc642), color-stop(0.87, #9ed929));
+  background: -moz-linear-gradient(center bottom, #7bc043 2%, #8bc642 51%, #9ed929 87%);
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section .table1 thead th:empty {
+  background: transparent;
+  border: none;
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section .table1 tbody th {
+  color: #fff;
+  text-shadow: 1px 1px 1px #568F23;
+  background-color: #9DD929;
+  border: 1px solid #93CE37;
+  border-right: 3px solid #9ED929;
+  padding: 0px 10px;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0.02, #9ed929), color-stop(0.51, #8bc642), color-stop(0.87, #7bc043));
+  background: -moz-linear-gradient(left bottom, #9ed929 2%, #8bc642 51%, #7bc043 87%);
+  -moz-border-radius: 5px 0px 0px 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section .table1 tfoot td {
+  color: #9CD009;
+  font-size: 32px;
+  text-align: center;
+  padding: 10px 0px;
+  text-shadow: 1px 1px 1px #444;
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section .table1 tfoot th {
+  color: #666;
+}
+.wrap-window.k-window-content.k-content .config-tabs .content-section .table1 tbody td {
+  padding: 10px;
+  text-align: center;
+  background-color: #DEF3CA;
+  border: 2px solid #E7EFE0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #666;
+  text-shadow: 1px 1px 1px #fff;
+  text-transform: capitalize;
+}
+.wrap-window.k-window-content.k-content .config-tabs .sheet-content-preview .scroll-content {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  max-height: 180px;
+}
+.wrap-window.k-window-content.k-content .config-btns {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

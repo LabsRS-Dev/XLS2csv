@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "setelan",
+                "toolbar_feedback": "eupan balik",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Tulung"
+            },
+            "toolBar": {
+                "btnImport": "impor File",
+                "btnClear": "atra",
+                "btnConvert": "ngarobah sadaya"
+            },
+            "importDialog": {
+                "title": "Impor * file .xls",
+                "prompt": "impor"
+            },
+            "output": {
+                "outputLabel": "diréktori kaluaran",
+                "btnSelect": "milih",
+                "selectOutputDialog": {
+                    "title": "Pilih diréktori output",
+                    "prompt": "milih"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ieu téh teu jalan polder valid",
+                    "notWritablePathMsg": "No nulis idin"
+                }
+            },
+            "appDescription": "payil XLS angkatan ngarobah"
+        },
+        "view_config": {
+            "windowTitle": "Konfigurasi ékspor",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "standar sistem",
+            "btnApplyAll": "Dilarapkeun ka Sadaya",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Ngekspor item ngan dipilih",
+                "InformationCaption": "inpormasi",
+                "PreviewCaption": "titingali"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "SEPARATOR"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ieu koropak teu bisa dibaca ku ngagunakeun métode a XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "pilihan",
+            "langSelectLabel": "basa lokal",
+            "langSelectHint": "Switch ka basa sejen merlukeun dibalikan deui aplikasi",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "تنظیمات",
+                "toolbar_feedback": "بازخورد",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "کمک"
+            },
+            "toolBar": {
+                "btnImport": "واردات فایل",
+                "btnClear": "واضح",
+                "btnConvert": "تبدیل تمام"
+            },
+            "importDialog": {
+                "title": "واردات * فایل xls",
+                "prompt": "وارد كردن"
+            },
+            "output": {
+                "outputLabel": "دایرکتوری خروجی",
+                "btnSelect": "انتخاب کنید",
+                "selectOutputDialog": {
+                    "title": "دایرکتوری خروجی را انتخاب",
+                    "prompt": "انتخاب کنید"
+                },
+                "validChecker": {
+                    "validPathMsg": "این یک مسیر پوشه معتبر نیست",
+                    "notWritablePathMsg": "بدون اجازه نوشتن"
+                }
+            },
+            "appDescription": "فایل های XLS قابلیت تبدیل"
+        },
+        "view_config": {
+            "windowTitle": "صادرات پیکربندی",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "پیش فرض سیستم",
+            "btnApplyAll": "درخواست برای همه",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "صادرات اقلام تنها انتخاب",
+                "InformationCaption": "اطلاعات",
+                "PreviewCaption": "پیش نمایش"
+            },
+            "PageOthers": {
+                "encodingLabel": "برنامه نویسی",
+                "separatorLabel": "تفکیک کننده"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "این فایل می تواند با استفاده از روش خوانده نمی شود XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "گزینه ها",
+            "langSelectLabel": "زبان محلی",
+            "langSelectHint": "تغییر به زبان دیگر نیاز به شروع مجدد برنامه",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

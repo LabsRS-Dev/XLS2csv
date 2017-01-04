@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Параметри",
+                "toolbar_feedback": "Алоқа",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Кӯмак"
+            },
+            "toolBar": {
+                "btnImport": "Воридоти File",
+                "btnClear": "Clear",
+                "btnConvert": "Табдил дода ҳамаи"
+            },
+            "importDialog": {
+                "title": "Воридоти * файли .xls",
+                "prompt": "воридот"
+            },
+            "output": {
+                "outputLabel": "феҳристи Натиҷаи",
+                "btnSelect": "ро интихоб кунед",
+                "selectOutputDialog": {
+                    "title": "феҳристи баромади Интихоб кунед",
+                    "prompt": "ро интихоб кунед"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ин аст роҳча мӯътабар нест",
+                    "notWritablePathMsg": "Не барои навиштан рухсат"
+                }
+            },
+            "appDescription": "Файлҳои XLS партияи навимонон"
+        },
+        "view_config": {
+            "windowTitle": "Содироти Батанзимдарорӣ",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "пешфарз системаи",
+            "btnApplyAll": "Apply ба ҳама",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Содироти адад танҳо интихобшуда",
+                "InformationCaption": "маълумот",
+                "PreviewCaption": "саньиши пешакӣ"
+            },
+            "PageOthers": {
+                "encodingLabel": "рамзгузории",
+                "separatorLabel": "ҷудосози"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ин файл метавонад бо истифода аз усули карда намешавад хонда XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Имконот",
+            "langSelectLabel": "забони маҳаллӣ",
+            "langSelectHint": "Гузариш ба дигар забонҳо талаб дароред ариза",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

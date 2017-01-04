@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "goobta",
+                "toolbar_feedback": "Jawaab-celinta",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "I caawi"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "Clear",
+                "btnConvert": "Beddelaan oo dhan"
+            },
+            "importDialog": {
+                "title": "* File .xls Import",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "tusaha Output",
+                "btnSelect": "dooro",
+                "selectOutputDialog": {
+                    "title": "buugga soo saarka Select",
+                    "prompt": "dooro"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ma aha Jid folder ansax",
+                    "notWritablePathMsg": "No fasax u qortaa"
+                }
+            },
+            "appDescription": "diinta Dufcaddii files XLS"
+        },
+        "view_config": {
+            "windowTitle": "dhoofinta haggaajin",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "nidaamka default",
+            "btnApplyAll": "Codso in All",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Dhoofinta alaabta kaliya la doortay",
+                "InformationCaption": "macluumaad",
+                "PreviewCaption": "Falanqeynta Kulanka Xiisaha Leh"
+            },
+            "PageOthers": {
+                "encodingLabel": "sireed",
+                "separatorLabel": "SEPARATOR"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "file Tani ma la akhrisan kartaa adigoo isticmaalaya hab XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Options",
+            "langSelectLabel": "af Local",
+            "langSelectHint": "Switch in luqad kale u baahan howleheedii codsiga",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

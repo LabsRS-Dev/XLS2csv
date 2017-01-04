@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "nustatymas",
+                "toolbar_feedback": "grįžtamasis ryšys",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "padėti"
+            },
+            "toolBar": {
+                "btnImport": "importas Failų",
+                "btnClear": "aiškus",
+                "btnConvert": "konvertuoti visus"
+            },
+            "importDialog": {
+                "title": "Importas * .xls failą",
+                "prompt": "importas"
+            },
+            "output": {
+                "outputLabel": "Išėjimo katalogas",
+                "btnSelect": "pasirinkti",
+                "selectOutputDialog": {
+                    "title": "Pasirinkite išvesties katalogas",
+                    "prompt": "pasirinkti"
+                },
+                "validChecker": {
+                    "validPathMsg": "Tai yra neteisingas aplanko kelią",
+                    "notWritablePathMsg": "Nėra rašymo leidimo"
+                }
+            },
+            "appDescription": "Partija konvertuoti XLS failai"
+        },
+        "view_config": {
+            "windowTitle": "eksportas konfigūravimas",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistema pagal nutylėjimą",
+            "btnApplyAll": "Taikyti visiems",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksportuoti tik pasirinktus elementus",
+                "InformationCaption": "informacija",
+                "PreviewCaption": "Peržiūrėti"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodavimas",
+                "separatorLabel": "separatorius"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Šis failas negali būti skaityti naudojant metodą XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Nustatymai",
+            "langSelectLabel": "vietinis kalba",
+            "langSelectHint": "Perjungti į kitą kalbą, reikia iš naujo paleisti programą",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

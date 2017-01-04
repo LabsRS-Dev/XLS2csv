@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "тохиргоо",
+                "toolbar_feedback": "санал хүсэлт",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Туслаач"
+            },
+            "toolBar": {
+                "btnImport": "Импортын Файлын",
+                "btnClear": "Цэвэр",
+                "btnConvert": "бүх хувиргах"
+            },
+            "importDialog": {
+                "title": "Импорт * .xls файл",
+                "prompt": "Импортын"
+            },
+            "output": {
+                "outputLabel": "гаралтын сан",
+                "btnSelect": "сонгох",
+                "selectOutputDialog": {
+                    "title": "Select гаралт сан",
+                    "prompt": "сонгох"
+                },
+                "validChecker": {
+                    "validPathMsg": "Энэ нь зөв хавтас зам биш юм",
+                    "notWritablePathMsg": "Ямар ч бичих зөвшөөрөл"
+                }
+            },
+            "appDescription": "Багц хөрвөгч XLS файлууд"
+        },
+        "view_config": {
+            "windowTitle": "Экспортын тохиргоо",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "системийн анхдагч",
+            "btnApplyAll": "Бүх хэрэглэнэ",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "зөвхөн сонгосон зүйлсийг экспорт",
+                "InformationCaption": "мэдээлэл",
+                "PreviewCaption": "Урьдчилан харах"
+            },
+            "PageOthers": {
+                "encodingLabel": "бичих",
+                "separatorLabel": "тусгаарлагч"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Энэ файл нь аргыг ашиглан уншиж чадахгүй байгаа XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "сонголтууд",
+            "langSelectLabel": "Орон нутгийн хэл",
+            "langSelectHint": "өөр хэл рүү шилжих өргөдлийг дахин эхлүүлэх шаардлагатай",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

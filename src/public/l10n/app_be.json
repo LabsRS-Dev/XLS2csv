@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "налада",
+                "toolbar_feedback": "зваротная сувязь",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "дапамогу"
+            },
+            "toolBar": {
+                "btnImport": "імпарт файлаў",
+                "btnClear": "ясна",
+                "btnConvert": "пераўтварыць ўсе"
+            },
+            "importDialog": {
+                "title": "Імпарт файл * .xls",
+                "prompt": "імпарт"
+            },
+            "output": {
+                "outputLabel": "Выхадныя дырэкторыя",
+                "btnSelect": "выбраць",
+                "selectOutputDialog": {
+                    "title": "Выберыце выхадны каталог",
+                    "prompt": "выбраць"
+                },
+                "validChecker": {
+                    "validPathMsg": "Гэта не правільны шлях тэчкі",
+                    "notWritablePathMsg": "Няма правоў на запіс"
+                }
+            },
+            "appDescription": "Файлы XLS Пакетнае канвертаванне"
+        },
+        "view_config": {
+            "windowTitle": "экспарт канфігурацыі",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "сістэма па змаўчанні",
+            "btnApplyAll": "Прымяніць да ўсіх",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Экспарт толькі выбраныя элементы",
+                "InformationCaption": "інфармацыя",
+                "PreviewCaption": "папярэдні прагляд"
+            },
+            "PageOthers": {
+                "encodingLabel": "кадаваньне",
+                "separatorLabel": "сепаратар"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Гэты файл не можа быць лічаны з дапамогай метаду XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "опцыі",
+            "langSelectLabel": "мясцовая мова",
+            "langSelectHint": "Пераключэнне на іншую мову патрабуе перазапуску прыкладання",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

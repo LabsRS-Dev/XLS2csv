@@ -1,0 +1,31 @@
+@import "defind";
+
+#win-settings {
+  font-size: @g_ui_fontSize;
+
+  .settings-content{
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 80%;
+
+    .settings-lang{
+      .ref-content-section();
+      border: none !important;
+
+      .k-combobox{
+        width: 100%;
+      }
+
+      small{
+        color: orangered;
+      }
+    }
+  }
+
+
+  .settings-btns{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}

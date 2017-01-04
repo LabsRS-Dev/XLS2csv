@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ਸੈਟਿੰਗ",
+                "toolbar_feedback": "ਸੁਝਾਅ",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "ਮਦਦ ਕਰੋ"
+            },
+            "toolBar": {
+                "btnImport": "ਅਯਾਤ ਫਾਇਲ",
+                "btnClear": "ਆਸਮਾਨ",
+                "btnConvert": "ਸਭ ਬਦਲੋ"
+            },
+            "importDialog": {
+                "title": "ਅਯਾਤ * .xls ਫਾਇਲ",
+                "prompt": "ਆਯਾਤ ਕਰੋ"
+            },
+            "output": {
+                "outputLabel": "ਆਉਟਪੁੱਟ ਡਾਇਰੈਕਟਰੀ",
+                "btnSelect": "ਦੀ ਚੋਣ ਕਰੋ",
+                "selectOutputDialog": {
+                    "title": "ਚੁਣੋ ਆਉਟਪੁੱਟ ਡਾਇਰੈਕਟਰੀ",
+                    "prompt": "ਦੀ ਚੋਣ ਕਰੋ"
+                },
+                "validChecker": {
+                    "validPathMsg": "ਇਹ ਇੱਕ ਠੀਕ ਫੋਲਡਰ ਮਾਰਗ ਨਹੀ ਹੈ",
+                    "notWritablePathMsg": "ਕੋਈ ਲਿਖਣ ਅਧਿਕਾਰ"
+                }
+            },
+            "appDescription": "ਬੈਚ ਨਿਹਚਾਵਾਨ XLS ਫਾਇਲ"
+        },
+        "view_config": {
+            "windowTitle": "ਨਿਰਯਾਤ ਸੰਰਚਨਾ",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "ਸਿਸਟਮ ਮੂਲ",
+            "btnApplyAll": "ਸਭ ਨੂੰ ਲਾਗੂ",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "ਸਿਰਫ ਚੁਣਿਆ ਆਈਟਮ ਨਿਰਯਾਤ",
+                "InformationCaption": "ਜਾਣਕਾਰੀ",
+                "PreviewCaption": "ਜਾਣਕਾਰੀ ਦੇ"
+            },
+            "PageOthers": {
+                "encodingLabel": "ਕੋਡਿੰਗ",
+                "separatorLabel": "ਵੱਖਰੇਵੇ"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ਇਹ ਫਾਇਲ ਇੱਕ ਢੰਗ ਵਰਤ ਕੇ ਪੜ੍ਹਨ ਦੀ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "ਚੋਣ",
+            "langSelectLabel": "ਸਥਾਨਕ ਭਾਸ਼ਾ",
+            "langSelectHint": "ਹੋਰ ਭਾਸ਼ਾ ਦਾ ਸਵਿਚ ਕਾਰਜ ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰਨ ਦੀ ਲੋੜ ਹੈ",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

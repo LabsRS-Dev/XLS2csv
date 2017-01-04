@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "mjedis",
+                "toolbar_feedback": "reagim",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Ndihmë"
+            },
+            "toolBar": {
+                "btnImport": "Import dokumentit",
+                "btnClear": "Qartë",
+                "btnConvert": "Convert të gjitha"
+            },
+            "importDialog": {
+                "title": "Import * fotografi xls",
+                "prompt": "import"
+            },
+            "output": {
+                "outputLabel": "Lista output",
+                "btnSelect": "zgjedh",
+                "selectOutputDialog": {
+                    "title": "Zgjidh directory output",
+                    "prompt": "zgjedh"
+                },
+                "validChecker": {
+                    "validPathMsg": "Kjo nuk është një rrugë e vlefshme dosje",
+                    "notWritablePathMsg": "Nuk ka leje shkruaj"
+                }
+            },
+            "appDescription": "Batch convert fotografi XLS"
+        },
+        "view_config": {
+            "windowTitle": "Export Konfigurimi",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistemi i parazgjedhur",
+            "btnApplyAll": "Aplikoni për të gjithë",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksport artikuj zgjedhur vetëm",
+                "InformationCaption": "informacion",
+                "PreviewCaption": "inspektim"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodim",
+                "separatorLabel": "ndarës"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ky skedar nuk mund të lexohet duke përdorur një metodë XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Opsione",
+            "langSelectLabel": "gjuha lokale",
+            "langSelectHint": "Kaloni në një gjuhë tjetër kërkon rinisjen e aplikimit",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

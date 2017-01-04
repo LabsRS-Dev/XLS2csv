@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "tagpuan",
+                "toolbar_feedback": "feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Tulong"
+            },
+            "toolBar": {
+                "btnImport": "Import ng file",
+                "btnClear": "malinaw",
+                "btnConvert": "I-convert ang lahat ng"
+            },
+            "importDialog": {
+                "title": "Import * xls file",
+                "prompt": "Angkat"
+            },
+            "output": {
+                "outputLabel": "output direktoryo",
+                "btnSelect": "piliin",
+                "selectOutputDialog": {
+                    "title": "Piliin ang direktoryo output",
+                    "prompt": "piliin"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ito ay hindi isang wastong path ng folder",
+                    "notWritablePathMsg": "No write pahintulot"
+                }
+            },
+            "appDescription": "Batch-convert XLS file"
+        },
+        "view_config": {
+            "windowTitle": "I-export ang Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistema ng default",
+            "btnApplyAll": "Mag-apply sa lahat ng",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "I-export ang tanging napiling mga item",
+                "InformationCaption": "impormasyon",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "pagkukudigo",
+                "separatorLabel": "panghiwalay"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ang file na ito ay hindi maaaring basahin sa pamamagitan ng paggamit ng isang paraan XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Opsyon",
+            "langSelectLabel": "lokal na wika",
+            "langSelectHint": "Lumipat sa ibang wika ay nangangailangan ng pag-restart ang application",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

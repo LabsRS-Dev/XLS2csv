@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "eto",
+                "toolbar_feedback": "esi",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Egba Mi O"
+            },
+            "toolBar": {
+                "btnImport": "gbe wọle File",
+                "btnClear": "Clear",
+                "btnConvert": "iyipada gbogbo"
+            },
+            "importDialog": {
+                "title": "Gbe wọle * .XLS faili",
+                "prompt": "gbe wọle"
+            },
+            "output": {
+                "outputLabel": "o wu liana",
+                "btnSelect": "yan",
+                "selectOutputDialog": {
+                    "title": "Yan o wu liana",
+                    "prompt": "yan"
+                },
+                "validChecker": {
+                    "validPathMsg": "O ti wa ni ko kan wulo folda ona",
+                    "notWritablePathMsg": "Ko si Kọ aiye"
+                }
+            },
+            "appDescription": "Ipele lọkan padà XLS awọn faili"
+        },
+        "view_config": {
+            "windowTitle": "Export iṣeto ni",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "eto aiyipada",
+            "btnApplyAll": "Kan si Gbogbo",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Okeere nikan ti a ti yan awọn ohun",
+                "InformationCaption": "alaye",
+                "PreviewCaption": "awotẹlẹ"
+            },
+            "PageOthers": {
+                "encodingLabel": "ifaminsi",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Yi faili ko le wa ni ka nipa lilo a ọna XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "awọn aṣayan",
+            "langSelectLabel": "agbegbe ede",
+            "langSelectHint": "Yipada si miran ede nilo Titun awọn ohun elo",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

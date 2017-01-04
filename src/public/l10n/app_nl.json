@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "omgeving",
+                "toolbar_feedback": "terugkoppeling",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Hulp"
+            },
+            "toolBar": {
+                "btnImport": "Importeer bestand",
+                "btnClear": "Duidelijk",
+                "btnConvert": "Zet alle"
+            },
+            "importDialog": {
+                "title": "Import * .xls-bestand",
+                "prompt": "Importeren"
+            },
+            "output": {
+                "outputLabel": "output directory",
+                "btnSelect": "kiezen",
+                "selectOutputDialog": {
+                    "title": "Selecteer output directory",
+                    "prompt": "kiezen"
+                },
+                "validChecker": {
+                    "validPathMsg": "Het is niet een geldige map pad",
+                    "notWritablePathMsg": "Geen schrijfrechten"
+                }
+            },
+            "appDescription": "De partij zet XLS-bestanden"
+        },
+        "view_config": {
+            "windowTitle": "export Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "systeemfout",
+            "btnApplyAll": "Toepassen op alle",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exporteer alleen geselecteerde artikelen",
+                "InformationCaption": "informatie",
+                "PreviewCaption": "Voorbeschouwing"
+            },
+            "PageOthers": {
+                "encodingLabel": "codering",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Dit bestand kan niet worden gelezen met behulp van een methode XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "opties",
+            "langSelectLabel": "Lokale taal",
+            "langSelectHint": "Overschakelen naar een andere taal vereist herstarten van de toepassing",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

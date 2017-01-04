@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "বিন্যাস",
+                "toolbar_feedback": "প্রতিক্রিয়া",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "সাহায্য"
+            },
+            "toolBar": {
+                "btnImport": "ফাইল আমদানি",
+                "btnClear": "পরিষ্কার",
+                "btnConvert": "সব রূপান্তর"
+            },
+            "importDialog": {
+                "title": "আমদানি * .xls ফাইল",
+                "prompt": "আমদানি"
+            },
+            "output": {
+                "outputLabel": "আউটপুট ডিরেক্টরি",
+                "btnSelect": "নির্বাচন করা",
+                "selectOutputDialog": {
+                    "title": "নির্বাচন আউটপুট ডিরেক্টরি",
+                    "prompt": "নির্বাচন করা"
+                },
+                "validChecker": {
+                    "validPathMsg": "এটি একটি বৈধ ফোল্ডার পাথ নয়",
+                    "notWritablePathMsg": "কোন লেখার অনুমতি"
+                }
+            },
+            "appDescription": "ব্যাচ রূপান্তর XLS ফাইল"
+        },
+        "view_config": {
+            "windowTitle": "রপ্তানি কনফিগারেশন",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "সিস্টেমের ডিফল্ট",
+            "btnApplyAll": "সব জন্য আবেদন",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "শুধুমাত্র নির্বাচিত আইটেম রপ্তানি করুন",
+                "InformationCaption": "তথ্য",
+                "PreviewCaption": "প্রি"
+            },
+            "PageOthers": {
+                "encodingLabel": "আইনসংগ্রহ",
+                "separatorLabel": "বিভাজক"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "এই ফাইলটি একটি পদ্ধতি ব্যবহার করে পড়া যাবে না XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "বিকল্প",
+            "langSelectLabel": "স্থানীয় ভাষা",
+            "langSelectHint": "অন্য ভাষা থেকে সুইচ অ্যাপ্লিকেশন পুনরায় আরম্ভ করার প্রয়োজন",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

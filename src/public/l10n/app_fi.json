@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "asetus",
+                "toolbar_feedback": "palaute",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Auttaa"
+            },
+            "toolBar": {
+                "btnImport": "Tuo tiedosto",
+                "btnClear": "Selvä",
+                "btnConvert": "muuntaa kaikki"
+            },
+            "importDialog": {
+                "title": "Tuo * .xls",
+                "prompt": "Tuonti"
+            },
+            "output": {
+                "outputLabel": "tulostehakemisto",
+                "btnSelect": "valita",
+                "selectOutputDialog": {
+                    "title": "Valitse tulostehakemisto",
+                    "prompt": "valita"
+                },
+                "validChecker": {
+                    "validPathMsg": "Se ei ole kelvollinen kansion polku",
+                    "notWritablePathMsg": "Ei kirjoitusoikeutta"
+                }
+            },
+            "appDescription": "Erän muuntaa xls"
+        },
+        "view_config": {
+            "windowTitle": "Vie määritykset",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "järjestelmän oletusarvo",
+            "btnApplyAll": "Koskee kaikkia",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Viedä vain valitut kohteet",
+                "InformationCaption": "tiedot",
+                "PreviewCaption": "preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "koodaus",
+                "separatorLabel": "separaattori"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Tätä tiedostoa ei voi lukea käyttämällä menetelmällä XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Vaihtoehdot",
+            "langSelectLabel": "paikallisella kielellä",
+            "langSelectHint": "Vaihda toiseen kieleen edellyttää uudelleenkäynnistyksen sovellus",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

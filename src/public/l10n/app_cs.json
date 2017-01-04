@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "nastavení",
+                "toolbar_feedback": "Zpětná vazba",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Pomoc"
+            },
+            "toolBar": {
+                "btnImport": "import souborů",
+                "btnClear": "Jasný",
+                "btnConvert": "převést všechny"
+            },
+            "importDialog": {
+                "title": "Import * .xls soubor",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "výstupní adresář",
+                "btnSelect": "vybrat",
+                "selectOutputDialog": {
+                    "title": "Vybrat výstupní adresář",
+                    "prompt": "vybrat"
+                },
+                "validChecker": {
+                    "validPathMsg": "To není platný cestu ke složce",
+                    "notWritablePathMsg": "Bez povolení zápisu"
+                }
+            },
+            "appDescription": "XLS dávkové konverzi"
+        },
+        "view_config": {
+            "windowTitle": "Konfigurace Export",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "výchozí systém",
+            "btnApplyAll": "Použít na vše",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exportovat pouze vybrané položky",
+                "InformationCaption": "informace",
+                "PreviewCaption": "Náhled"
+            },
+            "PageOthers": {
+                "encodingLabel": "kódování",
+                "separatorLabel": "Oddělovač"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Tento soubor nelze číst pomocí metody XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "možnosti",
+            "langSelectLabel": "místní jazyk",
+            "langSelectHint": "Přepnutí do jiného jazyka vyžaduje restart aplikace",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Socrú",
+                "toolbar_feedback": "aiseolas",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Cabhrú"
+            },
+            "toolBar": {
+                "btnImport": "Iompórtáil Comhad",
+                "btnClear": "Clear",
+                "btnConvert": "Tiontaigh gach"
+            },
+            "importDialog": {
+                "title": "Iompórtáil comhad xls *",
+                "prompt": "Iompórtáil"
+            },
+            "output": {
+                "outputLabel": "eolaire aschur",
+                "btnSelect": "roghnaigh",
+                "selectOutputDialog": {
+                    "title": "eolaire aschur Roghnaigh",
+                    "prompt": "roghnaigh"
+                },
+                "validChecker": {
+                    "validPathMsg": "Níl sé conair an fhillteáin bailí",
+                    "notWritablePathMsg": "Níl cead scríofa"
+                }
+            },
+            "appDescription": "Comhaid XLS Baisc thiontú"
+        },
+        "view_config": {
+            "windowTitle": "Cumraíocht Easpórtáil",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "réamhshocraithe an chórais",
+            "btnApplyAll": "Déan iarratas chuig Gach",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Easpórtáil míreanna roghnaithe amháin",
+                "InformationCaption": "eolas",
+                "PreviewCaption": "réamhamharc"
+            },
+            "PageOthers": {
+                "encodingLabel": "códaithe",
+                "separatorLabel": "deighilteoir"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ní féidir an comhad a léamh ag baint úsáide as modh XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "roghanna",
+            "langSelectLabel": "teanga áitiúil",
+            "langSelectHint": "Éilíonn Téigh go teanga eile restarting an t-iarratas",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

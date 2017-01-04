@@ -1,0 +1,143 @@
+<script type="text/x-kendo-template" id="tmpl-config">
+    <div class="climate">
+        <div class="config-info">
+            <p data-bind="html: configInfo"></p>
+        </div>
+        <div class="config-tabs" data-role="tabstrip">
+            <ul>
+                <li class="k-state-active">
+                    <span data-bind="html: optionSheetTitle"></span>
+                </li>
+                <li>
+                    <span data-bind="html: optionOthersTitle"></span>
+                </li>
+            </ul>
+            <div>
+                <div class="tabs-content option-sheet">
+                </div>
+            </div>
+            <div>
+                <div class="tabs-content option-others">
+                </div>
+            </div>
+        </div>
+        <div class="config-btns">
+            <a class="k-button"  tag-action="item-default"><span data-bind="html: btnDefault"></span></a>
+            <a class="k-button"  tag-action="item-applyAll"><span data-bind="html: btnApplyAll"></span></a>
+            <a class="k-button"  tag-action="item-ok"><span data-bind="html: btnOK"></span></a>
+            <a class="k-button"  tag-action="item-cancel"><span data-bind="html: btnCancel"></span></a>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-kendo-template" id="xlsinfo-template">
+    <div class="content-section">
+        # var canShow = false;#
+        # for(var i = 0; i < col.length; ++i) {#
+        # if (col[i].length > 0) canShow = true;#
+        # }#
+        # if (canShow) { #
+        <table class="table1">
+            <tbody>
+            # for (var i = 0; i < row.length; ++i) { #
+            <tr>
+                <th scope="row">#= row[i] #</th>
+                <td class="value expand-width">#= col[i] #</td>
+            </tr>
+            # } #
+            </tbody>
+        </table>
+        # }else{ #
+        Can't get the xls file build-in attributes
+        # } #
+    </div>
+</script>
+
+<script type="text/x-kendo-template" id="option-sheet-template">
+    <div class="sheet-content">
+        <div class="content-section sheet-content-setting">
+            <h4>#:sectionTitle#</h4>
+            <input tag-id="sheet-id" style="width: 50%;">
+            <input tag-id="check_only" id="#:checkboxID#" type="checkbox" class="k-checkbox">
+            <label class="k-checkbox-label" for="#:checkboxID#">#:checkBoxLabel#</label>
+            </input>
+        </div>
+        <div class="content-section sheet-content-info">
+        </div>
+        <div class="content-section sheet-content-preview">
+        </div>
+    </div>
+</script>
+<script type="text/x-kendo-template" id="sheet-info-template">
+    <h4>#= caption #</h4>
+    <table class="table1">
+        <tbody>
+        <tr>
+            <th scope="row">Row Count</th>
+            <td class="value">#= xlsdata.rowCount #</td>
+            <th scope="row">Max Column Count</th>
+            <td class="value">#= xlsdata.max_colCount #</td>
+        </tr>
+        </tbody>
+    </table>
+</script>
+<script type="text/x-kendo-template" id="sheet-preview-template">
+    <h4>#= caption #</h4>
+    <div class="scroll-content">
+        # var viewData = xlsdata.viewData;#
+        <table class="table1">
+            <thead>
+            <tr>
+                <th></th>
+                # for (var i = 0; i < viewData[0].length; ++i) { #
+                <th scope="col" abbr="Starter">#= viewData[0][i] #</th>
+                # } #
+            </tr>
+
+            </thead>
+            <tbody>
+            # for (var i = 1; i < viewData.length; ++i) { #
+            <tr>
+                <th scope="row">#= i #</th>
+                # for (var j = 0; j < viewData[i].length; ++j) { #
+                <td class="value">#= viewData[i][j] #</td>
+                # }#
+            </tr>
+            # } #
+            </tbody>
+        </table>
+    </div>
+</script>
+<script type="text/x-kendo-template" id="option-others-template">
+    <div class="encoding-content">
+        <div class="content-section">
+            <h4>#= encodingLabel #</h4>
+            <input tag-id="encoding-list"/>
+        </div>
+        <div class="content-section">
+            <h4>#= separatorLabel #</h4>
+            <input tag-id="separator-list"/>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-kendo-template" id="info-template">
+    <table class="table1">
+        <thead>
+        <tr>
+            <th></th>
+            <th scope="col" abbr="Starter">Report</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Error</th>
+            <td class="value">#= error #</td>
+        </tr>
+        <tr>
+            <th scope="row">Support</th>
+            <td class="value">#= support #</td>
+        </tr>
+        </tbody>
+    </table>
+</script>

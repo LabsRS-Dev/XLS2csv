@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "設定",
+                "toolbar_feedback": "フィードバック",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "助けて"
+            },
+            "toolBar": {
+                "btnImport": "ファイルのインポート",
+                "btnClear": "クリア",
+                "btnConvert": "すべての変換"
+            },
+            "importDialog": {
+                "title": "インポート*の.xlsファイル",
+                "prompt": "インポート"
+            },
+            "output": {
+                "outputLabel": "出力ディレクトリ",
+                "btnSelect": "選択します",
+                "selectOutputDialog": {
+                    "title": "出力ディレクトリを選択します",
+                    "prompt": "選択します"
+                },
+                "validChecker": {
+                    "validPathMsg": "これは、有効なフォルダパスではありません",
+                    "notWritablePathMsg": "いいえ書き込み権限はありません"
+                }
+            },
+            "appDescription": "バッチ改宗者XLSファイル"
+        },
+        "view_config": {
+            "windowTitle": "構成のエクスポート",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "システムのデフォルト",
+            "btnApplyAll": "すべてに適用",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "選択したアイテムのみをエクスポートします。",
+                "InformationCaption": "情報",
+                "PreviewCaption": "プレビュー"
+            },
+            "PageOthers": {
+                "encodingLabel": "コーディング",
+                "separatorLabel": "セパレーター"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "このファイルには、メソッドを使用して読み取ることができないXLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "オプション",
+            "langSelectLabel": "現地の言語",
+            "langSelectHint": "別の言語に切り替えるには、アプリケーションを再起動する必要があります",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

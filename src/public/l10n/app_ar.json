@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ضبط",
+                "toolbar_feedback": "ردود الفعل",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "مساعدة"
+            },
+            "toolBar": {
+                "btnImport": "استيراد ملف",
+                "btnClear": "واضح",
+                "btnConvert": "تحويل جميع"
+            },
+            "importDialog": {
+                "title": "استيراد * ملف .xls",
+                "prompt": "استيراد"
+            },
+            "output": {
+                "outputLabel": "الدليل الإخراج",
+                "btnSelect": "اختار",
+                "selectOutputDialog": {
+                    "title": "حدد الدليل الإخراج",
+                    "prompt": "اختار"
+                },
+                "validChecker": {
+                    "validPathMsg": "وهي ليست مسار مجلد صالح",
+                    "notWritablePathMsg": "لا إذن الكتابة"
+                }
+            },
+            "appDescription": "ملفات XLS تحويل دفعة واحدة"
+        },
+        "view_config": {
+            "windowTitle": "تصدير التكوين",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "النظام الافتراضي",
+            "btnApplyAll": "تنطبق على جميع",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "تصدير العناصر المحددة فقط",
+                "InformationCaption": "معلومات",
+                "PreviewCaption": "معاينة"
+            },
+            "PageOthers": {
+                "encodingLabel": "الترميز",
+                "separatorLabel": "الفاصل"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "هذا الملف لا يمكن قراءته باستخدام طريقة XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "خيارات",
+            "langSelectLabel": "لغة محلية",
+            "langSelectHint": "التحول إلى لغة أخرى يتطلب إعادة تشغيل التطبيق",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

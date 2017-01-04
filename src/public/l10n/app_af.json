@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "omgewing",
+                "toolbar_feedback": "terugvoer",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "help"
+            },
+            "toolBar": {
+                "btnImport": "invoer lêer",
+                "btnClear": "duidelik",
+                "btnConvert": "Skakel al"
+            },
+            "importDialog": {
+                "title": "Invoer * XLS lêer",
+                "prompt": "invoer"
+            },
+            "output": {
+                "outputLabel": "uitset gids",
+                "btnSelect": "kies",
+                "selectOutputDialog": {
+                    "title": "Kies uitset gids",
+                    "prompt": "kies"
+                },
+                "validChecker": {
+                    "validPathMsg": "Dit is nie 'n geldige gids pad",
+                    "notWritablePathMsg": "Geen skryf reg"
+                }
+            },
+            "appDescription": "Batch omskep XLS lêers"
+        },
+        "view_config": {
+            "windowTitle": "uitvoer Konfigurasie",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "stelsel verstek",
+            "btnApplyAll": "Van toepassing op alle",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Uitvoer slegs geselekteerde items",
+                "InformationCaption": "inligting",
+                "PreviewCaption": "voorskou"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodering",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Hierdie lêer kan nie gelees word deur die gebruik van 'n metode XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "opsies",
+            "langSelectLabel": "plaaslike taal",
+            "langSelectHint": "Skakel oor na 'n ander taal verg om weer te begin die aansoek",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

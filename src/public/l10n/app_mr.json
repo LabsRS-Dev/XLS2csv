@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "सेटिंग",
+                "toolbar_feedback": "अभिप्राय",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "मदत"
+            },
+            "toolBar": {
+                "btnImport": "फाइल आयात",
+                "btnClear": "साफ करा",
+                "btnConvert": "सर्व रूपांतरित"
+            },
+            "importDialog": {
+                "title": "आयात * .xls फाइल",
+                "prompt": "आयात"
+            },
+            "output": {
+                "outputLabel": "आउटपुट संचयीका",
+                "btnSelect": "निवडा",
+                "selectOutputDialog": {
+                    "title": "आउटपुट संचयीका निवडा",
+                    "prompt": "निवडा"
+                },
+                "validChecker": {
+                    "validPathMsg": "तो एक वैध फोल्डर पथ नाही",
+                    "notWritablePathMsg": "लिहित नाही परवानगी"
+                }
+            },
+            "appDescription": "बॅच धर्मांतर XLS, फाइल"
+        },
+        "view_config": {
+            "windowTitle": "निर्यात संरचना",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "प्रणाली मुलभूत",
+            "btnApplyAll": "सर्व लागू करा",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "फक्त निवडलेले आयटम निर्यात",
+                "InformationCaption": "माहिती",
+                "PreviewCaption": "पूर्वावलोकन"
+            },
+            "PageOthers": {
+                "encodingLabel": "कोडींग",
+                "separatorLabel": "विभाजक"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ही फाइल पद्धत वापरून वाचणे शक्य नाही XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "पर्याय",
+            "langSelectLabel": "स्थानिक भाषा",
+            "langSelectHint": "दुसर्या भाषेवर स्विच अनुप्रयोग पुन्हा सुरू आवश्यक",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

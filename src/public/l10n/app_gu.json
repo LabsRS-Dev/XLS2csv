@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "સેટિંગ",
+                "toolbar_feedback": "પ્રતિસાદ",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "મદદ"
+            },
+            "toolBar": {
+                "btnImport": "આયાત ફાઇલ",
+                "btnClear": "ચોખ્ખુ",
+                "btnConvert": "બધા કન્વર્ટ"
+            },
+            "importDialog": {
+                "title": "આયાત * .xls ફાઇલ",
+                "prompt": "આયાત"
+            },
+            "output": {
+                "outputLabel": "પરિણામ ડિરેક્ટરી",
+                "btnSelect": "પસંદ",
+                "selectOutputDialog": {
+                    "title": "પસંદ પરિણામ ડિરેક્ટરી",
+                    "prompt": "પસંદ"
+                },
+                "validChecker": {
+                    "validPathMsg": "તે માન્ય ફોલ્ડર પાથ નથી",
+                    "notWritablePathMsg": "કોઈ લખવાની પરવાનગી"
+                }
+            },
+            "appDescription": "બેચ રૂપાંતર XLS ફાઈલો"
+        },
+        "view_config": {
+            "windowTitle": "નિકાસ રૂપરેખાંકન",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "સિસ્ટમ મૂળભૂત",
+            "btnApplyAll": "બધા પર લાગુ",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "માત્ર પસંદ કરેલ વસ્તુઓ નિકાસ",
+                "InformationCaption": "માહિતી",
+                "PreviewCaption": "પૂર્વદર્શન"
+            },
+            "PageOthers": {
+                "encodingLabel": "કોડિંગ",
+                "separatorLabel": "વિભાજક"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "આ ફાઇલ પદ્ધતિનો ઉપયોગ કરીને દ્વારા વાંચી શકાતી નથી XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "વિકલ્પો",
+            "langSelectLabel": "સ્થાનિક ભાષા",
+            "langSelectHint": "અન્ય ભાષા પર સ્વિચ કરો અરજી પુનઃશરૂ જરૂરી",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

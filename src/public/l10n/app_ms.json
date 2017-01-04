@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Menetapkan",
+                "toolbar_feedback": "Maklumbalas",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Bantu"
+            },
+            "toolBar": {
+                "btnImport": "import Fail",
+                "btnClear": "Clear",
+                "btnConvert": "Tukar semua"
+            },
+            "importDialog": {
+                "title": "Import fail * .xls",
+                "prompt": "import"
+            },
+            "output": {
+                "outputLabel": "direktori keluaran",
+                "btnSelect": "pilih",
+                "selectOutputDialog": {
+                    "title": "Pilih direktori output",
+                    "prompt": "pilih"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ia bukan laluan folder yang sah",
+                    "notWritablePathMsg": "Tiada kebenaran menulis"
+                }
+            },
+            "appDescription": "fail XLS Batch convert"
+        },
+        "view_config": {
+            "windowTitle": "Konfigurasi Eksport",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "lalai sistem",
+            "btnApplyAll": "Guna untuk Semua",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksport barangan terpilih sahaja",
+                "InformationCaption": "maklumat",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "pengekodan",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Fail ini tidak boleh dibaca dengan menggunakan kaedah yang XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "pilihan",
+            "langSelectLabel": "bahasa tempatan",
+            "langSelectHint": "Tukar ke bahasa lain memerlukan memulakan semula permohonan itu",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

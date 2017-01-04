@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "setting",
+                "toolbar_feedback": "Komentar",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "bantuan"
+            },
+            "toolBar": {
+                "btnImport": "Impor File",
+                "btnClear": "Clear",
+                "btnConvert": "Convert kabeh"
+            },
+            "importDialog": {
+                "title": "Impor * file .xls",
+                "prompt": "Impor"
+            },
+            "output": {
+                "outputLabel": "dirèktori paweton",
+                "btnSelect": "pilih",
+                "selectOutputDialog": {
+                    "title": "Pilih direktori output",
+                    "prompt": "pilih"
+                },
+                "validChecker": {
+                    "validPathMsg": "Iku ora path folder bener",
+                    "notWritablePathMsg": "Ora nulis ijin"
+                }
+            },
+            "appDescription": "file Xls Kumpulan Ngonversi"
+        },
+        "view_config": {
+            "windowTitle": "Konfigurasi kaca",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "standar sistem",
+            "btnApplyAll": "Aplikasi kanggo Kabeh",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Ngekspor item sing kapilih",
+                "InformationCaption": "Alexa",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "werna",
+                "separatorLabel": "pamisah"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Berkas iki ora bisa maca kanthi nggunakake cara XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Pilihan",
+            "langSelectLabel": "basa lokal",
+            "langSelectHint": "Ngalih menyang basa liyane mbutuhake miwiti aplikasi",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

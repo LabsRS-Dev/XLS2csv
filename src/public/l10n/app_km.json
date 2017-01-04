@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ការកំណត់",
+                "toolbar_feedback": "មតិអ្នកប្រើ",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "ជំនួយ"
+            },
+            "toolBar": {
+                "btnImport": "នាំចូលឯកសារ",
+                "btnClear": "ការច្បាស់លាស់",
+                "btnConvert": "បម្លែងទាំងអស់"
+            },
+            "importDialog": {
+                "title": "នាំចូលឯកសារ .xls *",
+                "prompt": "នាំចូល"
+            },
+            "output": {
+                "outputLabel": "ថតទិន្នផល",
+                "btnSelect": "ជ្រើស",
+                "selectOutputDialog": {
+                    "title": "ជ្រើសថតលទ្ធផល",
+                    "prompt": "ជ្រើស"
+                },
+                "validChecker": {
+                    "validPathMsg": "វាមិនមែនជាផ្លូវរបស់ថតដែលមានសុពលភាព",
+                    "notWritablePathMsg": "គ្មានសិទ្ធិសរសេរ"
+                }
+            },
+            "appDescription": "ឯកសារ XLS ប្រែចិត្តជឿបាច់"
+        },
+        "view_config": {
+            "windowTitle": "ការកំណត់រចនាសម្ព័ន្ធនាំចេញ",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "លំនាំដើមរបស់ប្រព័ន្ធ",
+            "btnApplyAll": "អនុវត្តទាំងអស់",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "នាំចេញធាតុដែលបានជ្រើសប៉ុណ្ណោះ",
+                "InformationCaption": "ព័ត៌មាន",
+                "PreviewCaption": "មើលជាមុន"
+            },
+            "PageOthers": {
+                "encodingLabel": "ការសរសេរកូដ",
+                "separatorLabel": "បន្ទាត់ខណ្ឌចែក"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ឯកសារនេះមិនអាចត្រូវបានអានដោយប្រើវិធីសាស្រ្តមួយ XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "ជម្រើស",
+            "langSelectLabel": "ភាសាក្នុងស្រុក",
+            "langSelectHint": "ប្តូរទៅជាភាសាផ្សេងទៀតតម្រូវឱ្យមានការចាប់ផ្ដើមកម្មវិធីឡើងវិញ",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

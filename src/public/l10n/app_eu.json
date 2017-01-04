@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Entorno",
+                "toolbar_feedback": "Feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Laguntza"
+            },
+            "toolBar": {
+                "btnImport": "Inportatu fitxategia",
+                "btnClear": "Eguraldi",
+                "btnConvert": "Bihurtu guztiak"
+            },
+            "importDialog": {
+                "title": "Inportatu * xls",
+                "prompt": "Inportatu"
+            },
+            "output": {
+                "outputLabel": "Irteerako direktorioa",
+                "btnSelect": "hautatu",
+                "selectOutputDialog": {
+                    "title": "Aukeratu irteera direktorioa",
+                    "prompt": "hautatu"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ez da baliozko karpeta bide bat da",
+                    "notWritablePathMsg": "Idazteko baimenik"
+                }
+            },
+            "appDescription": "Batch convert XLS fitxategiak"
+        },
+        "view_config": {
+            "windowTitle": "Esportatu konfigurazioa",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistemaren lehenetsia",
+            "btnApplyAll": "Aplikatu guztiei",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Esportatu hautatutako elementuak bakarrik",
+                "InformationCaption": "informazio",
+                "PreviewCaption": "Aurreikusi"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodetze",
+                "separatorLabel": "Bereizle"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Fitxategi hau ezin da metodo bat erabiliz irakurri XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Aukerak",
+            "langSelectLabel": "Bertako hizkuntza",
+            "langSelectHint": "beste hizkuntza Aldatu aplikazioa berrabiarazi behar du",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

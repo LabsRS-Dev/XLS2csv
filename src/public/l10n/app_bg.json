@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "обстановка",
+                "toolbar_feedback": "Обратна връзка",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Помогне"
+            },
+            "toolBar": {
+                "btnImport": "внос на файла",
+                "btnClear": "ясно",
+                "btnConvert": "Конвертиране на всички"
+            },
+            "importDialog": {
+                "title": "Внос * .xls файл",
+                "prompt": "внос"
+            },
+            "output": {
+                "outputLabel": "Изходна директория",
+                "btnSelect": "изберете",
+                "selectOutputDialog": {
+                    "title": "Изберете изходна директория",
+                    "prompt": "изберете"
+                },
+                "validChecker": {
+                    "validPathMsg": "Това не е валиден път папка",
+                    "notWritablePathMsg": "Няма разрешение за запис"
+                }
+            },
+            "appDescription": "Конвертирате партида XLS файлове"
+        },
+        "view_config": {
+            "windowTitle": "Export Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "система по подразбиране",
+            "btnApplyAll": "Се прилагат за всички",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Износ само избраните елементи",
+                "InformationCaption": "информация",
+                "PreviewCaption": "предварителен преглед"
+            },
+            "PageOthers": {
+                "encodingLabel": "кодиране",
+                "separatorLabel": "сепаратор"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Този файл не може да се чете с помощта на метод XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Настроики",
+            "langSelectLabel": "Местен език",
+            "langSelectHint": "Превключи на друг език, изисква рестартиране на заявлението",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

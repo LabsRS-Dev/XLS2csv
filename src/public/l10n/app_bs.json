@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "postavljanje",
+                "toolbar_feedback": "Feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "pomoći"
+            },
+            "toolBar": {
+                "btnImport": "uvoz datoteke",
+                "btnClear": "jasno",
+                "btnConvert": "Pretvori sve"
+            },
+            "importDialog": {
+                "title": "Uvoz * .xls datoteka",
+                "prompt": "uvoz"
+            },
+            "output": {
+                "outputLabel": "izlazni direktorij",
+                "btnSelect": "izabrati",
+                "selectOutputDialog": {
+                    "title": "Odaberite izlazni direktorij",
+                    "prompt": "izabrati"
+                },
+                "validChecker": {
+                    "validPathMsg": "To nije važeći putanju foldera",
+                    "notWritablePathMsg": "No pisanja dozvole"
+                }
+            },
+            "appDescription": "Batch convert XLS datoteke"
+        },
+        "view_config": {
+            "windowTitle": "izvoz Konfiguracija",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistem default",
+            "btnApplyAll": "Primjenjuju na sve",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Izvoziti samo odabrane stavke",
+                "InformationCaption": "informacija",
+                "PreviewCaption": "Pregled"
+            },
+            "PageOthers": {
+                "encodingLabel": "šifriranje",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ova datoteka ne može se čitati metodom XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "mogućnosti",
+            "langSelectLabel": "lokalni jezik",
+            "langSelectHint": "Prebacivanje na drugi jezik zahtijeva ponovno pokretanje aplikacije",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

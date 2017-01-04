@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Cài đặt",
+                "toolbar_feedback": "Phản hồi",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Cứu giúp"
+            },
+            "toolBar": {
+                "btnImport": "Import file",
+                "btnClear": "Trong sáng",
+                "btnConvert": "chuyển đổi tất cả"
+            },
+            "importDialog": {
+                "title": "Import file * .xls",
+                "prompt": "nhập"
+            },
+            "output": {
+                "outputLabel": "Thư mục đầu ra",
+                "btnSelect": "lựa chọn",
+                "selectOutputDialog": {
+                    "title": "Chọn thư mục đầu ra",
+                    "prompt": "lựa chọn"
+                },
+                "validChecker": {
+                    "validPathMsg": "Nó không phải là một đường dẫn thư mục hợp lệ",
+                    "notWritablePathMsg": "Không cho phép viết"
+                }
+            },
+            "appDescription": "file XLS hàng loạt chuyển đổi"
+        },
+        "view_config": {
+            "windowTitle": "Cấu hình xuất khẩu",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "mặc định hệ thống",
+            "btnApplyAll": "Áp dụng cho tất cả",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Xuất khẩu các mặt hàng chỉ được lựa chọn",
+                "InformationCaption": "thông tin",
+                "PreviewCaption": "Xem trước"
+            },
+            "PageOthers": {
+                "encodingLabel": "mã hóa",
+                "separatorLabel": "máy phân ly"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Tập tin này không thể được đọc bằng cách sử dụng một phương pháp XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Tùy chọn",
+            "langSelectLabel": "Ngôn ngữ địa phương",
+            "langSelectHint": "Chuyển sang ngôn ngữ khác đòi hỏi phải khởi động lại ứng dụng",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

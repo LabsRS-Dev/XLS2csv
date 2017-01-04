@@ -1,0 +1,560 @@
+/***************************
+ * 通用设置
+***************************/
+.text-muted {
+  color: #e2e2e2;
+}
+.ref-content-section {
+  border: 1px solid #f2f2f2;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=28);
+  /*-ms-filter must come before filter*/
+  filter: alpha(opacity=28);
+  /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+  /*All filters must be placed together*/
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+.commonShadow {
+  padding: 0 30px;
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.commonAside {
+  flex: 1 auto;
+}
+.compatibility-display-flex {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.ref_g_scrollbar_black {
+  /***
+*** 滚动条部分
+http://www.xuanfengge.com/css3-webkit-scrollbar.html
+::-webkit-scrollbar 滚动条整体部分
+::-webkit-scrollbar-thumb  滚动条里面的小方块，能向上向下移动（或往左往右移动，取决于是垂直滚动条还是水平滚动条）
+::-webkit-scrollbar-track  滚动条的轨道（里面装有Thumb）
+::-webkit-scrollbar-button 滚动条的轨道的两端按钮，允许通过点击微调小方块的位置。
+::-webkit-scrollbar-track-piece 内层轨道，滚动条中间部分（除去）
+::-webkit-scrollbar-corner 边角，即两个滚动条的交汇处
+::-webkit-resizer 两个滚动条的交汇处上用于通过拖动调整元素大小的小控件
+***/
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar {
+  height: 11px;
+  width: 11px;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:start:decrement,
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:end:increment {
+  display: block;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:vertical:start:increment,
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal {
+  border-style: solid;
+  border-color: transparent;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+  background-clip: padding-box;
+  background-color: #fff;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+  background-clip: padding-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 28px;
+  padding-top: 100;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:hover {
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:active {
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal {
+  border-width: 0;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:hover {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:active {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.14), inset -1px -1px 0 rgba(0, 0, 0, 0.07);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ref_g_scrollbar_black ::-webkit-resizer {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  font-family: 'Myriad Set Pro', 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /***
+*** 滚动条部分
+http://www.xuanfengge.com/css3-webkit-scrollbar.html
+::-webkit-scrollbar 滚动条整体部分
+::-webkit-scrollbar-thumb  滚动条里面的小方块，能向上向下移动（或往左往右移动，取决于是垂直滚动条还是水平滚动条）
+::-webkit-scrollbar-track  滚动条的轨道（里面装有Thumb）
+::-webkit-scrollbar-button 滚动条的轨道的两端按钮，允许通过点击微调小方块的位置。
+::-webkit-scrollbar-track-piece 内层轨道，滚动条中间部分（除去）
+::-webkit-scrollbar-corner 边角，即两个滚动条的交汇处
+::-webkit-resizer 两个滚动条的交汇处上用于通过拖动调整元素大小的小控件
+***/
+}
+body .k-button {
+  font-size: 11px;
+}
+body ::-webkit-scrollbar {
+  height: 11px;
+  width: 11px;
+}
+body ::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+body ::-webkit-scrollbar-button:start:decrement,
+body ::-webkit-scrollbar-button:end:increment {
+  display: block;
+}
+body ::-webkit-scrollbar-button:vertical:start:increment,
+body ::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+body ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+body ::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+body ::-webkit-scrollbar-track:vertical,
+body ::-webkit-scrollbar-track:horizontal,
+body ::-webkit-scrollbar-thumb:vertical,
+body ::-webkit-scrollbar-thumb:horizontal,
+body ::-webkit-scrollbar-track:vertical,
+body ::-webkit-scrollbar-track:horizontal,
+body ::-webkit-scrollbar-thumb:vertical,
+body ::-webkit-scrollbar-thumb:horizontal {
+  border-style: solid;
+  border-color: transparent;
+}
+body ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+  background-clip: padding-box;
+  background-color: #fff;
+}
+body ::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+  background-clip: padding-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 28px;
+  padding-top: 100;
+}
+body ::-webkit-scrollbar-thumb:hover {
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body ::-webkit-scrollbar-thumb:active {
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body ::-webkit-scrollbar-track:vertical,
+body ::-webkit-scrollbar-track:horizontal,
+body ::-webkit-scrollbar-thumb:vertical,
+body ::-webkit-scrollbar-thumb:horizontal {
+  border-width: 0;
+}
+body ::-webkit-scrollbar-track:hover {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+body ::-webkit-scrollbar-track:active {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.14), inset -1px -1px 0 rgba(0, 0, 0, 0.07);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+body ::-webkit-resizer {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+body,
+html,
+#root,
+#root > div {
+  margin: 0;
+  padding: 0;
+  background: #292525;
+  height: 100%;
+  width: 100%;
+}
+header,
+footer {
+  transition: transform 100ms;
+  -moz-transition: -moz-transform 100ms;
+  -webkit-transition: -webkit-transform 100ms;
+}
+.focused header {
+  transform: translatey(-100px);
+  -moz-transform: translatey(-100px);
+  -webkit-transform: translatey(-100px);
+}
+.focused footer {
+  transform: translatey(100px);
+  -moz-transform: translatey(100px);
+  -webkit-transform: translatey(100px);
+}
+/***************************
+ * Header
+***************************/
+header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  -webkit-box-shadow: 0 0 20px #000;
+  background-color: #292525;
+  background-image: none, linear-gradient(to bottom, rgba(42, 42, 42, 0.6) 0, rgba(236, 236, 236, 0) 100%);
+  padding: 20px;
+  color: white;
+}
+header leftArea img {
+  width: 52px;
+  display: inline-block;
+  box-shadow: 0 0 20px #000;
+}
+header leftArea label {
+  float: right;
+  font-size: 1.2em;
+}
+header leftArea input {
+  background: #222;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #555;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 16px;
+  color: white;
+  font-size: 1em;
+  padding: 2px 5px;
+  outline: 0;
+}
+header rightArea {
+  position: fixed;
+  right: 30px;
+}
+header rightArea .k-button {
+  font-size: 11px;
+}
+/***************************
+ * Footer
+***************************/
+footer {
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  -webkit-box-shadow: 0 0 20px #000;
+  background-color: #292525;
+  background-image: none, linear-gradient(to bottom, rgba(42, 42, 42, 0.6) 0, rgba(236, 236, 236, 0) 100%);
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+footer leftArea {
+  display: table;
+  height: 100%;
+  width: 80%;
+  font-size: 11px;
+}
+footer leftArea group {
+  display: table-cell;
+  padding: 20px;
+  vertical-align: middle;
+}
+footer leftArea group .k-combobox {
+  width: 70%;
+}
+footer leftArea group span[tag-id="validChecker"] {
+  color: orange;
+  font-size: 11px;
+}
+footer rightArea {
+  display: table;
+  height: 100%;
+  width: -79%;
+}
+footer rightArea group {
+  display: table-cell;
+  padding: 20px;
+  vertical-align: middle;
+}
+.scroll-arrow {
+  opacity: .3;
+  transition: opacity 200ms, background-color 200ms, color 200ms;
+  -moz-transition: opacity 200ms, background-color 200ms, color 200ms;
+  -webkit-transition: opacity 200ms, background-color 200ms, color 200ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: transparent;
+  z-index: 2;
+  height: 30px;
+  width: 30px;
+  margin: 26px 20px 24px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 2em;
+  padding: 2px;
+  font-family: sans-serif;
+  cursor: default;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+footer:hover .scroll-arrow {
+  opacity: 1;
+  background: #ffd200;
+  color: #FFFFFF;
+}
+#scroll-right {
+  left: auto;
+  right: 0;
+}
+/***************************
+ * Main
+***************************/
+#image-container {
+  height: 100%;
+  width: 100%;
+  display: table;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+#image-container #wrap {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+/***************************
+ * Wrap
+***************************/
+.wrap-window {
+  background: url("../images/bg/bgnoise_lg_black.png");
+}
+/***************************
+ * Wrap
+***************************/
+#wrap {
+  height: auto;
+  width: 90%;
+  white-space: nowrap;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0 30px;
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  background: url("../images/bg/bgnoise_lg_black.png");
+}
+#wrap toolbar {
+  text-align: right;
+}
+#wrap dataListView {
+  background-color: #292525;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  -webkit-box-shadow: 0 0 20px #000;
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  height: 30em;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+#wrap dataListView fileObject {
+  text-align: left;
+  display: block;
+  white-space: nowrap;
+  background-image: none, linear-gradient(to bottom, rgba(42, 42, 42, 0.6) 0, rgba(236, 236, 236, 0) 100%);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 5px 12px;
+}
+#wrap dataListView fileObject content {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+#wrap dataListView fileObject progressbar {
+  display: block;
+  z-index: 99;
+  height: 4px;
+  width: 0%;
+}
+#wrap dataListView fileObject:hover {
+  transition: All 0.4s ease-in-out;
+  background-image: none, linear-gradient(to bottom, rgba(61, 135, 250, 0.6) 0, rgba(104, 203, 250, 0.9) 100%);
+}
+#wrap .layer-import {
+  z-index: 11;
+  vertical-align: middle;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  margin-left: -120px;
+  margin-top: -84px;
+}
+#wrap .layer-import button {
+  width: 240px;
+  height: 168px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+}
+/* AeroViewr Logo */
+.appLogo {
+  font-weight: normal;
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.appLogo a {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+}
+.appLogo a span {
+  margin: 32px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+/* Small screen fallback */
+@media only screen and (max-device-width: 1024px) {
+  html,
+  body,
+  #image-wrap,
+  #image-inner-wrap {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transform: translatez(0);
+  }
+  #image-inner-wrap .loading,
+  #image-inner-wrap .image,
+  #details {
+    height: 400px;
+  }
+  #image-inner-wrap {
+    height: 402px;
+  }
+  #details.visible {
+    width: 330px;
+  }
+  #details > div {
+    width: 300px;
+  }
+}

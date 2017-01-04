@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "vide",
+                "toolbar_feedback": "Atsauksmes",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "palīdzēt"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "skaidrs",
+                "btnConvert": "pārvērst visu"
+            },
+            "importDialog": {
+                "title": "Import * .xls failu",
+                "prompt": "imports"
+            },
+            "output": {
+                "outputLabel": "Output katalogs",
+                "btnSelect": "atlasīt",
+                "selectOutputDialog": {
+                    "title": "Izvēlieties produkcijas katalogs",
+                    "prompt": "atlasīt"
+                },
+                "validChecker": {
+                    "validPathMsg": "Tas nav derīgs mapes ceļš",
+                    "notWritablePathMsg": "Nav rakstīšanas atļauju"
+                }
+            },
+            "appDescription": "Partijas pārvērst xls failus"
+        },
+        "view_config": {
+            "windowTitle": "eksporta konfigurācija",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistēmas noklusējuma",
+            "btnApplyAll": "Attiecas uz visiem",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksportēt tikai atlasītos vienumus",
+                "InformationCaption": "informācija",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodēšana",
+                "separatorLabel": "separators"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Šo failu nevar nolasīt, izmantojot metodi XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "opcijas",
+            "langSelectLabel": "vietējā valoda",
+            "langSelectHint": "Pārslēgšanās uz citu valodu prasa restartēt pieteikumu",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

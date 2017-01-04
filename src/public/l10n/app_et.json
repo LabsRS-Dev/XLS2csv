@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "seade",
+                "toolbar_feedback": "tagasiside",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "aitama"
+            },
+            "toolBar": {
+                "btnImport": "Import faili",
+                "btnClear": "selge",
+                "btnConvert": "Muudab kõik"
+            },
+            "importDialog": {
+                "title": "Import * .xls faili",
+                "prompt": "import"
+            },
+            "output": {
+                "outputLabel": "väljundkataloog",
+                "btnSelect": "valima",
+                "selectOutputDialog": {
+                    "title": "Vali toodangu kataloog",
+                    "prompt": "valima"
+                },
+                "validChecker": {
+                    "validPathMsg": "See ei ole kehtiv kausta tee",
+                    "notWritablePathMsg": "Ei kirjutamisõigus"
+                }
+            },
+            "appDescription": "Partii pöördunu XLS"
+        },
+        "view_config": {
+            "windowTitle": "ekspordi Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "süsteemi vaikimisi",
+            "btnApplyAll": "Kanna Kõik",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksportida ainult valitud esemed",
+                "InformationCaption": "info",
+                "PreviewCaption": "Eelvaade"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodeerimine",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "See fail ei saa lugeda, kasutades meetodit XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Valikud",
+            "langSelectLabel": "Kohalik keel",
+            "langSelectHint": "Switch teise keele nõuab rakenduse taaskäivitamist",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

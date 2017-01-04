@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "reglaj",
+                "toolbar_feedback": "Parere",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Ajutor"
+            },
+            "toolBar": {
+                "btnImport": "Fișier import",
+                "btnClear": "clar",
+                "btnConvert": "converti toate"
+            },
+            "importDialog": {
+                "title": "Import * fișier .xls",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "Directorul de ieșire",
+                "btnSelect": "Selectați",
+                "selectOutputDialog": {
+                    "title": "Selectați directorul de ieșire",
+                    "prompt": "Selectați"
+                },
+                "validChecker": {
+                    "validPathMsg": "Nu este o cale de folder validă",
+                    "notWritablePathMsg": "Nu aveți permisiunea de scriere"
+                }
+            },
+            "appDescription": "fișiere XLS lot converti"
+        },
+        "view_config": {
+            "windowTitle": "Configurația la export",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "defectiune de sistem",
+            "btnApplyAll": "Aplica la toate",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exporta numai elementele selectate",
+                "InformationCaption": "informație",
+                "PreviewCaption": "previzualizare"
+            },
+            "PageOthers": {
+                "encodingLabel": "de codificare",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Acest fișier nu poate fi citit prin utilizarea unei metode XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Opțiuni",
+            "langSelectLabel": "limba locală",
+            "langSelectHint": "Comutați la o altă limbă necesită repornirea aplicației",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

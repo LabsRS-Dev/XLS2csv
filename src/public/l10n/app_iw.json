@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "הגדרה",
+                "toolbar_feedback": "מָשׁוֹב",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "עֶזרָה"
+            },
+            "toolBar": {
+                "btnImport": "קובץ יבוא",
+                "btnClear": "ברור",
+                "btnConvert": "המרת כל"
+            },
+            "importDialog": {
+                "title": "קובץ ייבוא ​​* .xls",
+                "prompt": "יְבוּא"
+            },
+            "output": {
+                "outputLabel": "ספריית פלט",
+                "btnSelect": "בחר",
+                "selectOutputDialog": {
+                    "title": "ספריית פלט בחר",
+                    "prompt": "בחר"
+                },
+                "validChecker": {
+                    "validPathMsg": "זה לא נתיב של תיקייה תקפה",
+                    "notWritablePathMsg": "אין אישור כתיבה"
+                }
+            },
+            "appDescription": "קבצים ל XLS אצווה"
+        },
+        "view_config": {
+            "windowTitle": "תצורת ייצוא",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "ברירת מחדל של המערכת",
+            "btnApplyAll": "החל על כל",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "לייצא פריטים נבחרים בלבד",
+                "InformationCaption": "מֵידָע",
+                "PreviewCaption": "תצוגה מקדימה"
+            },
+            "PageOthers": {
+                "encodingLabel": "סִמוּל",
+                "separatorLabel": "מפריד"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "קובץ זה לא ניתן לקרוא באמצעות שיטה XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "אפשרויות",
+            "langSelectLabel": "שפה מקומית",
+            "langSelectHint": "החלף ל בשפה אחרת דורשת הפעלה מחדש של היישום",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

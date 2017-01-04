@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Setting",
+                "toolbar_feedback": "հետադարձ կապ",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Օգնություն"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "պարզ",
+                "btnConvert": "փոխարկել բոլոր"
+            },
+            "importDialog": {
+                "title": "Ներմուծում * .xls ֆայլը",
+                "prompt": "ներմուծում"
+            },
+            "output": {
+                "outputLabel": "Արդյունք ցուցակում",
+                "btnSelect": "ընտրել",
+                "selectOutputDialog": {
+                    "title": "Ընտրել արտադրանքը ցուցակում",
+                    "prompt": "ընտրել"
+                },
+                "validChecker": {
+                    "validPathMsg": "Այն ոչ մի վավեր թղթապանակ ուղին",
+                    "notWritablePathMsg": "Ոչ գրել թույլտվություն"
+                }
+            },
+            "appDescription": "Փաթեթը փոխել xls ֆայլերը"
+        },
+        "view_config": {
+            "windowTitle": "արտահանման Կազմաձեւման",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "համակարգ լռելյայն",
+            "btnApplyAll": "Դիմել է All",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Արտահանել միայն ընտրված իրեր",
+                "InformationCaption": "Տեղեկատվություն",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "կոդավորման",
+                "separatorLabel": "Բաժանիչ"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Այս ֆայլը չի ​​կարող կարդալ, օգտագործելով մի մեթոդ XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Ընտրանքներ",
+            "langSelectLabel": "Տեղական լեզուն",
+            "langSelectHint": "Անցնել մեկ այլ լեզվի պահանջում վերսկսելու դիմումը",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

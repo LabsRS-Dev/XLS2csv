@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ho ipehela",
+                "toolbar_feedback": "Feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Thusa"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "e hlakileng",
+                "btnConvert": "sokolla tsohle"
+            },
+            "importDialog": {
+                "title": "Import * .xls faele",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "khumo dibaka",
+                "btnSelect": "khetha",
+                "selectOutputDialog": {
+                    "title": "Kgetha dibaka khumo",
+                    "prompt": "khetha"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ho ke ke ha e nepahetseng e kentswe foldara tseleng",
+                    "notWritablePathMsg": "No ngole tjena tumello"
+                }
+            },
+            "appDescription": "difaele methaka sokolla XLS"
+        },
+        "view_config": {
+            "windowTitle": "Export phetolo",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "tsamaiso ya kamehla",
+            "btnApplyAll": "Sebetsa ho All",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Export dintho feela a khetha",
+                "InformationCaption": "boitsebiso bo",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "Coding",
+                "separatorLabel": "kgaoganyo"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "faele ena e ke ke bala ka ho sebelisa mokhoa XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Options",
+            "langSelectLabel": "puo Local",
+            "langSelectHint": "Fapohela ho puo e 'ngoe hloka hore restarting ya kopo",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

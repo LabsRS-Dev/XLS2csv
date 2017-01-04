@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "کی سیٹنگ",
+                "toolbar_feedback": "آپ کی رائے",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "مدد"
+            },
+            "toolBar": {
+                "btnImport": "درآمد فائل",
+                "btnClear": "صاف",
+                "btnConvert": "تمام کنورٹ"
+            },
+            "importDialog": {
+                "title": "درآمد کریں * .xls کی فائل",
+                "prompt": "درآمد کریں"
+            },
+            "output": {
+                "outputLabel": "پیداوار ڈائرکٹری",
+                "btnSelect": "منتخب",
+                "selectOutputDialog": {
+                    "title": "منتخب پیداوار ڈائرکٹری",
+                    "prompt": "منتخب"
+                },
+                "validChecker": {
+                    "validPathMsg": "یہ ایک درست فولڈر راستہ نہیں ہے",
+                    "notWritablePathMsg": "کوئی لکھنے کی اجازت"
+                }
+            },
+            "appDescription": "بیچ تبدیل XLS فائلوں"
+        },
+        "view_config": {
+            "windowTitle": "برآمد کی ترتیب",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "نظام ڈیفالٹ",
+            "btnApplyAll": "تمام پر لگائیں",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "صرف منتخب اشیاء برآمد",
+                "InformationCaption": "معلومات",
+                "PreviewCaption": "کا مشاہدہ کریں"
+            },
+            "PageOthers": {
+                "encodingLabel": "کوڈنگ",
+                "separatorLabel": "فاصل"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "یہ فائل ایک طریقہ استعمال کرتے ہوئے کی طرف سے پڑھا نہیں کیا جا سکتا XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "اختیارات",
+            "langSelectLabel": "مقامی زبان",
+            "langSelectHint": "کسی اور زبان سے جوڑئیے درخواست دوبارہ شروع کرنے کی ضرورت ہے",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

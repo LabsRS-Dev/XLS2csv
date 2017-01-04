@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Twaqqif",
+                "toolbar_feedback": "feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "jgħinu"
+            },
+            "toolBar": {
+                "btnImport": "importazzjoni File",
+                "btnClear": "ċar",
+                "btnConvert": "Ikkonverti kollha"
+            },
+            "importDialog": {
+                "title": "Importazzjoni * fajl xls",
+                "prompt": "importazzjoni"
+            },
+            "output": {
+                "outputLabel": "direttorju output",
+                "btnSelect": "tagħżel",
+                "selectOutputDialog": {
+                    "title": "direttorju output Agħżel",
+                    "prompt": "tagħżel"
+                },
+                "validChecker": {
+                    "validPathMsg": "Mhuwiex triq folder validu",
+                    "notWritablePathMsg": "Nru tikteb permess"
+                }
+            },
+            "appDescription": "fajls XLS jikkonvertu lott"
+        },
+        "view_config": {
+            "windowTitle": "esportazzjoni Konfigurazzjoni",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "inadempjenza sistema",
+            "btnApplyAll": "Applika għal Kulħadd",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Esportazzjoni oġġetti magħżula biss",
+                "InformationCaption": "informazzjoni",
+                "PreviewCaption": "preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodifikazzjoni",
+                "separatorLabel": "separatur"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Dan il-fajl ma tistax tinqara bl-użu ta 'metodu XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "għażliet",
+            "langSelectLabel": "lingwa lokali",
+            "langSelectHint": "Jaqilbu għal lingwa oħra jeħtieġ istartjar mill-ġdid l-applikazzjoni",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

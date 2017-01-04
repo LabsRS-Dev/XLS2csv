@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Ajuste",
+                "toolbar_feedback": "Realimentación",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Ayuda"
+            },
+            "toolBar": {
+                "btnImport": "Importar archivo",
+                "btnClear": "Claro",
+                "btnConvert": "Convertir todo"
+            },
+            "importDialog": {
+                "title": "Importación de archivos .xls *",
+                "prompt": "Importar"
+            },
+            "output": {
+                "outputLabel": "Directorio de salida",
+                "btnSelect": "seleccionar",
+                "selectOutputDialog": {
+                    "title": "Seleccionar directorio de salida",
+                    "prompt": "seleccionar"
+                },
+                "validChecker": {
+                    "validPathMsg": "No es una ruta de carpeta válida",
+                    "notWritablePathMsg": "Sin permiso de escritura"
+                }
+            },
+            "appDescription": "archivos XLS convertir por lotes"
+        },
+        "view_config": {
+            "windowTitle": "Configuración de exportación",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistema por defecto",
+            "btnApplyAll": "Aplica a todo",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exportar sólo los elementos seleccionados",
+                "InformationCaption": "información",
+                "PreviewCaption": "Avance"
+            },
+            "PageOthers": {
+                "encodingLabel": "codificación",
+                "separatorLabel": "Separador"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Este archivo no se puede leer mediante el uso de un método XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "opciones",
+            "langSelectLabel": "Lenguaje local",
+            "langSelectHint": "Cambiar a otro idioma requiere reiniciar la aplicación",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "mazingira",
+                "toolbar_feedback": "maoni",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Msaada"
+            },
+            "toolBar": {
+                "btnImport": "Import faili",
+                "btnClear": "wazi",
+                "btnConvert": "kubadilisha"
+            },
+            "importDialog": {
+                "title": "Import * xls file",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "pato directory",
+                "btnSelect": "teua",
+                "selectOutputDialog": {
+                    "title": "Select directory pato",
+                    "prompt": "teua"
+                },
+                "validChecker": {
+                    "validPathMsg": "Sio halali folder njia",
+                    "notWritablePathMsg": "Hakuna kuandika ruhusa"
+                }
+            },
+            "appDescription": "files kundi kubadilisha XLS"
+        },
+        "view_config": {
+            "windowTitle": "Export Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "mfumo default",
+            "btnApplyAll": "Yanahusu All",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Kuuza vitu tu kuchaguliwa",
+                "InformationCaption": "maelezo",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "faili hii haiwezi kusoma kwa kutumia njia XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "chaguzi",
+            "langSelectLabel": "lugha za Mitaa",
+            "langSelectHint": "Kubadili lugha nyingine inahitaji kuanzisha tena maombi",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

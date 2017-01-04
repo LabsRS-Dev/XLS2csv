@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Profecti",
+                "toolbar_feedback": "feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "auxilium"
+            },
+            "toolBar": {
+                "btnImport": "File Import",
+                "btnClear": "Aequaliter Nubila",
+                "btnConvert": "converte omnes"
+            },
+            "importDialog": {
+                "title": "Import file .xls",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "Output Directory",
+                "btnSelect": "select",
+                "selectOutputDialog": {
+                    "title": "Select output Directory",
+                    "prompt": "select"
+                },
+                "validChecker": {
+                    "validPathMsg": "Non valet a folder semita",
+                    "notWritablePathMsg": "Non liceat scribere"
+                }
+            },
+            "appDescription": "Batch lima conversus XLS"
+        },
+        "view_config": {
+            "windowTitle": "Configuration Export",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "Default ratio",
+            "btnApplyAll": "Ad omnes",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Export solum items electos",
+                "InformationCaption": "indicium",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Hic fasciculus legi non possunt per rationem XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "options",
+            "langSelectLabel": "loci lingua",
+            "langSelectHint": "Switch ad usum linguae restarting",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

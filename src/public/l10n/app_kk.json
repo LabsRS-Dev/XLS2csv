@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "параметр",
+                "toolbar_feedback": "Кері байланыс",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Көмектесіңдер"
+            },
+            "toolBar": {
+                "btnImport": "Сырттан алынған файл",
+                "btnClear": "айқын",
+                "btnConvert": "барлық түрлендіру"
+            },
+            "importDialog": {
+                "title": "Импорт * .xls файл",
+                "prompt": "импорт"
+            },
+            "output": {
+                "outputLabel": "шығыс каталогын",
+                "btnSelect": "таңдау",
+                "selectOutputDialog": {
+                    "title": "Шығыс каталогын таңдаңыз",
+                    "prompt": "таңдау"
+                },
+                "validChecker": {
+                    "validPathMsg": "Бұл жарамды қалта жолы болып табылады",
+                    "notWritablePathMsg": "Жоқ жазуға рұқсатыңыз"
+                }
+            },
+            "appDescription": "Пакеттік түрлендіру XLS файлдар"
+        },
+        "view_config": {
+            "windowTitle": "Экспорттық Конфигурация",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "жүйесі әдепкі",
+            "btnApplyAll": "Бәріне жағыңыз",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Экспорттық элементтерді ғана таңдалған",
+                "InformationCaption": "ақпарат",
+                "PreviewCaption": "алдын-ала қарау"
+            },
+            "PageOthers": {
+                "encodingLabel": "кодтау",
+                "separatorLabel": "бөлгіш"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Бұл файл тәсілін пайдаланып, оқу мүмкін емес XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Опциялар",
+            "langSelectLabel": "жергілікті тілі",
+            "langSelectHint": "басқа тілге ауысу өтініш өшіріп, қайта қосу қажет етеді",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

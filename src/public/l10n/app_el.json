@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Σύνθεση",
+                "toolbar_feedback": "Ανατροφοδότηση",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Βοήθεια"
+            },
+            "toolBar": {
+                "btnImport": "εισαγωγής αρχείου",
+                "btnClear": "Καθαρός",
+                "btnConvert": "Μετατροπή όλων"
+            },
+            "importDialog": {
+                "title": "Εισαγωγής αρχείο .xls *",
+                "prompt": "Εισαγωγή"
+            },
+            "output": {
+                "outputLabel": "κατάλογο εξόδου",
+                "btnSelect": "επιλέγω",
+                "selectOutputDialog": {
+                    "title": "Επιλέξτε κατάλογο εξόδου",
+                    "prompt": "επιλέγω"
+                },
+                "validChecker": {
+                    "validPathMsg": "Δεν είναι μια έγκυρη διαδρομή φακέλου",
+                    "notWritablePathMsg": "Δεν έχετε άδεια εγγραφής"
+                }
+            },
+            "appDescription": "αρχεία XLS να μετατρέψετε παρτίδα"
+        },
+        "view_config": {
+            "windowTitle": "εξαγωγή διαμόρφωσης",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "προεπιλογή του συστήματος",
+            "btnApplyAll": "Εφαρμόζονται σε όλες τις",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Εξάγει μόνο επιλεγμένα στοιχεία",
+                "InformationCaption": "πληροφορίες",
+                "PreviewCaption": "Προεπισκόπηση"
+            },
+            "PageOthers": {
+                "encodingLabel": "κωδικοποίησης",
+                "separatorLabel": "Διαχωριστής"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Αυτό το αρχείο δεν μπορεί να διαβαστεί χρησιμοποιώντας μια μέθοδο XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "επιλογές",
+            "langSelectLabel": "τοπική γλώσσα",
+            "langSelectHint": "Αλλαγή σε άλλη γλώσσα απαιτεί επανεκκίνηση της εφαρμογής",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

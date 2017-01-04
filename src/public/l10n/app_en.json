@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head":{
+                "toolbar_setting":"Setting",
+                "toolbar_feedback":"Feedback",
+                "toolbar_FAQ":"{{FAQ}}",
+                "toolbar_help":"Help"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "Clear",
+                "btnConvert": "Convert all"
+            },
+            "importDialog": {
+                "title": "Import * .xls file",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "Output directory",
+                "btnSelect": "select",
+                "selectOutputDialog": {
+                    "title": "Select output directory",
+                    "prompt": "select"
+                },
+                "validChecker": {
+                    "validPathMsg": "It is not a valid folder path",
+                    "notWritablePathMsg": "No write permission"
+                }
+            },
+            "appDescription": "Batch convert XLS files"
+        },
+        "view_config": {
+            "windowTitle": "Export Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "system default",
+            "btnApplyAll": "Apply to All",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Export only selected items",
+                "InformationCaption": "information",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "This file can not be read by using a method XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Options",
+            "langSelectLabel": "Local language",
+            "langSelectHint": "Switch to another language requires restarting the application",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

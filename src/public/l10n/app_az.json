@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Setting",
+                "toolbar_feedback": "Əlaqə",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "kömək"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "aydın",
+                "btnConvert": "bütün Convert"
+            },
+            "importDialog": {
+                "title": "Import * .xls file",
+                "prompt": "idxal"
+            },
+            "output": {
+                "outputLabel": "Çıxış directory",
+                "btnSelect": "seçmək",
+                "selectOutputDialog": {
+                    "title": "Select çıxış directory",
+                    "prompt": "seçmək"
+                },
+                "validChecker": {
+                    "validPathMsg": "Bu etibarlı qovluq yol deyil",
+                    "notWritablePathMsg": "No yazmaq icazəsi"
+                }
+            },
+            "appDescription": "Batch çevirmək XLS faylları"
+        },
+        "view_config": {
+            "windowTitle": "Export Konfiqurasiya",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistem default",
+            "btnApplyAll": "Bütün müraciət",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "yalnız seçilmiş maddələri ixrac",
+                "InformationCaption": "məlumat",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodlaşdırma",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Bu fayl metodu istifadə edərək, oxumaq bilməz XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Options",
+            "langSelectLabel": "Yerli dil",
+            "langSelectHint": "Başqa bir dil Switch proqram başlatmaqdan tələb",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

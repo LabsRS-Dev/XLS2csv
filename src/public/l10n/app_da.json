@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Indstilling",
+                "toolbar_feedback": "Feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Hjælp"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "Klar",
+                "btnConvert": "Konverter alle"
+            },
+            "importDialog": {
+                "title": "Import * .xls fil",
+                "prompt": "Importere"
+            },
+            "output": {
+                "outputLabel": "Output mappe",
+                "btnSelect": "vælge",
+                "selectOutputDialog": {
+                    "title": "Vælg output mappe",
+                    "prompt": "vælge"
+                },
+                "validChecker": {
+                    "validPathMsg": "Det er ikke en gyldig mappesti",
+                    "notWritablePathMsg": "Ingen skriverettigheder"
+                }
+            },
+            "appDescription": "Batch konvertere XLS filer"
+        },
+        "view_config": {
+            "windowTitle": "Eksport konfiguration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "systemets standard",
+            "btnApplyAll": "Anvend på alle",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksporter kun valgte emner",
+                "InformationCaption": "information",
+                "PreviewCaption": "Fernisering"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodning",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Denne fil kan ikke læses ved hjælp af en fremgangsmåde XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Indstillinger",
+            "langSelectLabel": "lokale sprog",
+            "langSelectHint": "Skift til et andet sprog kræver genstart af programmet",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

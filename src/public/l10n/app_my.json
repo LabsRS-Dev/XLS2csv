@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "setting ကို",
+                "toolbar_feedback": "တုံ့ပြန်ချက်",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "ကူညီပါ"
+            },
+            "toolBar": {
+                "btnImport": "သွင်းကုန်ဖိုင်",
+                "btnClear": "ရှင်းလင်းသော",
+                "btnConvert": "အားလုံး convert"
+            },
+            "importDialog": {
+                "title": "သွင်းကုန် * .xls ဖိုင်",
+                "prompt": "တင်သွင်း"
+            },
+            "output": {
+                "outputLabel": "output directory ကို",
+                "btnSelect": "ကို select လုပ်ပါ",
+                "selectOutputDialog": {
+                    "title": "output ကို directory ကို Select လုပ်ပါ",
+                    "prompt": "ကို select လုပ်ပါ"
+                },
+                "validChecker": {
+                    "validPathMsg": "ဒါဟာတရားဝင် folder ကိုလမ်းကြောင်းမဖြစ်",
+                    "notWritablePathMsg": "အဘယ်သူမျှမရေးခွင့်ပြုချက်"
+                }
+            },
+            "appDescription": "batch ပြောင်းလဲ XLS ဖိုင်တွေ"
+        },
+        "view_config": {
+            "windowTitle": "ပို့ကုန် Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "စနစ်က default အနေနဲ့",
+            "btnApplyAll": "အားလုံးမှ Apply",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "ပို့ကုန်မှသာပစ္စည်းများကိုရှေးခယျြ",
+                "InformationCaption": "သတင်းအချက်အလက်",
+                "PreviewCaption": "ကို preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ဤဖိုင်တစ်ဦး method ကိုအသုံးပြုခြင်းအားဖြင့်ဖတ်မရနိုငျ XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Options ကို",
+            "langSelectLabel": "ဒေသခံဘာသာစကား",
+            "langSelectHint": "အခြားဘာသာစကားမှ switch သည်လျှောက်လွှာကိုပြန်လည်စတင်လိုအပ်ပါတယ်",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

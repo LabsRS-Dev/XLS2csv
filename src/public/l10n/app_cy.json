@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "gosod",
+                "toolbar_feedback": "adborth",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Help"
+            },
+            "toolBar": {
+                "btnImport": "File mewnforio",
+                "btnClear": "Clear",
+                "btnConvert": "trosi pob"
+            },
+            "importDialog": {
+                "title": "Mewnforio ffeil .xls *",
+                "prompt": "mewnforio"
+            },
+            "output": {
+                "outputLabel": "cyfeiriadur allbwn",
+                "btnSelect": "dewiswch",
+                "selectOutputDialog": {
+                    "title": "cyfeiriadur allbwn Dewis",
+                    "prompt": "dewiswch"
+                },
+                "validChecker": {
+                    "validPathMsg": "Nid yw'n llwybr folder dilys",
+                    "notWritablePathMsg": "Dim caniatâd ysgrifennu"
+                }
+            },
+            "appDescription": "ffeiliau XLS trosi Swp"
+        },
+        "view_config": {
+            "windowTitle": "allforio Ffurfweddiad",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "diofyn system",
+            "btnApplyAll": "Gwneud cais i All",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Allforio eitemau dethol yn unig",
+                "InformationCaption": "gwybodaeth",
+                "PreviewCaption": "Rhagolwg"
+            },
+            "PageOthers": {
+                "encodingLabel": "codio",
+                "separatorLabel": "gwahanydd"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ni all y ffeil yn cael ei ddarllen gan ddefnyddio dull XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Dewisiadau",
+            "langSelectLabel": "iaith leol",
+            "langSelectHint": "Newid i iaith arall yn gofyn ailgychwyn y cais",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

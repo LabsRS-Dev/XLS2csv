@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Setting",
+                "toolbar_feedback": "Impendulo",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Usizo"
+            },
+            "toolBar": {
+                "btnImport": "Ngenisa Ifayela",
+                "btnClear": "Sula",
+                "btnConvert": "Ukuguqula zonke"
+            },
+            "importDialog": {
+                "title": "Ngenisa * ifayela .xls",
+                "prompt": "Ngenisa"
+            },
+            "output": {
+                "outputLabel": "Okukhipha lwemibhalo",
+                "btnSelect": "khetha",
+                "selectOutputDialog": {
+                    "title": "Khetha okukhiphayo lwemibhalo",
+                    "prompt": "khetha"
+                },
+                "validChecker": {
+                    "validPathMsg": "Akuyona ifolda endleleni evumelekile",
+                    "notWritablePathMsg": "Ayikho imvume bhala"
+                }
+            },
+            "appDescription": "amafayela Batch ukuguqula XLS"
+        },
+        "view_config": {
+            "windowTitle": "Export Ukucushwa",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "uhlelo ezenzakalelayo",
+            "btnApplyAll": "Zisebenza kuwo wonke",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Ukuthekelisa izinto ezikhethiwe kuphela",
+                "InformationCaption": "Imininingwane",
+                "PreviewCaption": "Buka kuqala"
+            },
+            "PageOthers": {
+                "encodingLabel": "esephepheni",
+                "separatorLabel": "Isihlukanisi"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Leli fayela alikwazi ukufunda ngokusebenzisa indlela XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Izinketho",
+            "langSelectLabel": "ulimi Local",
+            "langSelectHint": "Shintshela olunye ulimi kudinga kabusha isicelo",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

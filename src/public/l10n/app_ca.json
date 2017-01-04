@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ajust",
+                "toolbar_feedback": "realimentació",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "ajudar"
+            },
+            "toolBar": {
+                "btnImport": "Importa fitxer",
+                "btnClear": "clar",
+                "btnConvert": "Converteix tot"
+            },
+            "importDialog": {
+                "title": "Importació d'arxius .xls *",
+                "prompt": "importació"
+            },
+            "output": {
+                "outputLabel": "directori de sortida",
+                "btnSelect": "seleccionar",
+                "selectOutputDialog": {
+                    "title": "Seleccionar directori de sortida",
+                    "prompt": "seleccionar"
+                },
+                "validChecker": {
+                    "validPathMsg": "No és una ruta de carpeta vàlida",
+                    "notWritablePathMsg": "Sense permís d'escriptura"
+                }
+            },
+            "appDescription": "arxius XLS convertir per lots"
+        },
+        "view_config": {
+            "windowTitle": "Configuració d'exportació",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "per defecte del sistema",
+            "btnApplyAll": "Aplicar a tot",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exporta només els elements seleccionats",
+                "InformationCaption": "informació",
+                "PreviewCaption": "Vista prèvia"
+            },
+            "PageOthers": {
+                "encodingLabel": "codificació",
+                "separatorLabel": "separador"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Aquest fitxer no es pot llegir mitjançant l'ús d'un mètode XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "opcions",
+            "langSelectLabel": "idioma local",
+            "langSelectHint": "Canviar a un altre idioma requereix reiniciar l'aplicació",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

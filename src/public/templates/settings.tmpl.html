@@ -1,0 +1,28 @@
+<div id="win-settings"></div>
+<script type="text/x-kendo-template" id="tmpl-settings">
+    <div class="settings-content">
+        <div class="settings-lang">
+            <h4 data-bind="html: langSelectLabel"></h4>
+            <input data-role="combobox"
+                   data-value-primitive="true"
+                   data-text-field="value"
+                   data-value-field="key"
+                   data-bind="value:selectedLang,
+                          source:langList,
+                          events:{
+                            change: onLangChange
+                          }
+                         "/>
+            <p class="settings-hint">
+                <small data-bind="html: langSelectHint"></small>
+            </p>
+        </div>
+        <div class="settings-export">
+
+        </div>
+    </div>
+    <div class="settings-btns">
+        <a class="k-button"  tag-action="item-ok"><span data-bind="html: btnOK"></span></a>
+        <a class="k-button"  tag-action="item-cancel"><span data-bind="html: btnCancel"></span></a>
+    </div>
+</script>

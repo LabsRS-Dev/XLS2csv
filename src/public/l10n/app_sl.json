@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "nastavitev",
+                "toolbar_feedback": "povratne informacije",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "pomaga"
+            },
+            "toolBar": {
+                "btnImport": "Uvoz datoteke",
+                "btnClear": "Počisti",
+                "btnConvert": "Pretvarjanje vse"
+            },
+            "importDialog": {
+                "title": "Uvoz * .xls datoteke",
+                "prompt": "Uvoz"
+            },
+            "output": {
+                "outputLabel": "izhodni imenik",
+                "btnSelect": "izberite",
+                "selectOutputDialog": {
+                    "title": "Izberite izhodni imenik",
+                    "prompt": "izberite"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ni veljavna mapa pot",
+                    "notWritablePathMsg": "Pisanje ni dovoljenja"
+                }
+            },
+            "appDescription": "Serija Pretvarjanje XLS datoteke"
+        },
+        "view_config": {
+            "windowTitle": "izvoz konfiguracije",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "privzeti sistem",
+            "btnApplyAll": "Uporabi za vse",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Izvoziti le izbrane predmete",
+                "InformationCaption": "informacije",
+                "PreviewCaption": "predogled"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodiranje",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ta datoteka se ne more brati z uporabo metode XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Opcije",
+            "langSelectLabel": "lokalni jezik",
+            "langSelectHint": "Preklop na drug jezik zahteva vnovični zagon aplikacije",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

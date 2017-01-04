@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "அமைக்கிறது",
+                "toolbar_feedback": "கருத்து",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "உதவி"
+            },
+            "toolBar": {
+                "btnImport": "இறக்குமதி கோப்பு",
+                "btnClear": "தெளிவு",
+                "btnConvert": "அனைத்து மாற்ற"
+            },
+            "importDialog": {
+                "title": "இறக்குமதி * .xls கோப்பை",
+                "prompt": "இறக்குமதி"
+            },
+            "output": {
+                "outputLabel": "வெளியீடு அடைவு",
+                "btnSelect": "தேர்வு",
+                "selectOutputDialog": {
+                    "title": "அடைவை தேர்வு",
+                    "prompt": "தேர்வு"
+                },
+                "validChecker": {
+                    "validPathMsg": "அது சரியான பாதை அல்ல",
+                    "notWritablePathMsg": "எழுத அனுமதி இல்லை"
+                }
+            },
+            "appDescription": "தொகுதி மாறியவர் XLS கோப்புகளை"
+        },
+        "view_config": {
+            "windowTitle": "ஏற்றுமதி கட்டமைப்பு",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "கணினி இயல்புநிலை",
+            "btnApplyAll": "அனைவருக்கும் பொருந்தும்",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "மட்டும் தேர்ந்தெடுத்த உருப்படிகளை ஏற்றுமதி",
+                "InformationCaption": "தகவல்",
+                "PreviewCaption": "முன்னோட்ட"
+            },
+            "PageOthers": {
+                "encodingLabel": "குறியீட்டு",
+                "separatorLabel": "பிரிப்பான்"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "இந்தக் கோப்பு முறை பயன்படுத்தி படிக்க முடியாது XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "விருப்பங்கள்",
+            "langSelectLabel": "உள்ளூர் மொழி",
+            "langSelectHint": "மற்றொரு மொழிக்கு மாறவும் பயன்பாட்டை மறுதொடக்கம் தேவை",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ക്രമീകരണം",
+                "toolbar_feedback": "പ്രതികരണം",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "സഹായിക്കൂ"
+            },
+            "toolBar": {
+                "btnImport": "ഇറക്കുമതി ഫയൽ",
+                "btnClear": "തെളിഞ്ഞ",
+                "btnConvert": "എല്ലാ പരിവർത്തനം"
+            },
+            "importDialog": {
+                "title": "ഇംപോർട്ട് * .xls ഫയൽ",
+                "prompt": "ഇംപോർട്ട്"
+            },
+            "output": {
+                "outputLabel": "ഔട്ട്പുട്ട് ഡയറക്ടറി",
+                "btnSelect": "തെരഞ്ഞെടുക്കുക",
+                "selectOutputDialog": {
+                    "title": "ഔട്ട്പുട്ട് ഡയറക്ടറി തിരഞ്ഞെടുക്കുക",
+                    "prompt": "തെരഞ്ഞെടുക്കുക"
+                },
+                "validChecker": {
+                    "validPathMsg": "ഇത് സാധുവായ അറയുടെ പാത്ത് അല്ല",
+                    "notWritablePathMsg": "റൈറ്റ് പെർമിഷൻ ഇല്ല"
+                }
+            },
+            "appDescription": "ബാച്ച് പരിവർത്തനം XLS ഫയലുകൾ"
+        },
+        "view_config": {
+            "windowTitle": "കയറ്റുമതി ക്രമീകരണം",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "സിസ്റ്റം സ്ഥിര",
+            "btnApplyAll": "എല്ലാത്തിലും പ്രയോഗിക്കുക",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "കയറ്റുമതി മാത്രം ഇനങ്ങൾ തിരഞ്ഞെടുത്തു",
+                "InformationCaption": "വിവരം",
+                "PreviewCaption": "പ്രിവ്യൂ"
+            },
+            "PageOthers": {
+                "encodingLabel": "കോഡിങ്",
+                "separatorLabel": "വിഭാജി"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ഈ ഫയൽ ഒരു രീതി ഉപയോഗിച്ച് വായിക്കാൻ കഴിയില്ല XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "ഓപ്ഷനുകൾ",
+            "langSelectLabel": "പ്രാദേശിക ഭാഷ",
+            "langSelectHint": "മറ്റൊരു ഭാഷയിലേക്ക് പ്രയോഗ പുനരാരംഭിക്കേണ്ടതായ",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Setting",
+                "toolbar_feedback": "nzaghachi",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Enyemaka"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "Clear",
+                "btnConvert": "tọghata niile"
+            },
+            "importDialog": {
+                "title": "Import * .xls file",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "mmepụta directory",
+                "btnSelect": "họrọ",
+                "selectOutputDialog": {
+                    "title": "Họrọ mmepụta directory",
+                    "prompt": "họrọ"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ọ bụghị a nti nchekwa ụzọ",
+                    "notWritablePathMsg": "Ọ dịghị akwụkwọ, ikike"
+                }
+            },
+            "appDescription": "Ogbe tọghatara XLS files"
+        },
+        "view_config": {
+            "windowTitle": "Export nhazi",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "usoro ndabere",
+            "btnApplyAll": "Emetụta All",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Mbupụ naanị selected items",
+                "InformationCaption": "ọmụma",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "nzuzo",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Nke a file ike ịgụ site na iji a usoro XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Nhọrọ",
+            "langSelectLabel": "asụsụ obodo",
+            "langSelectHint": "Mgba ọkụ ka asụsụ ọzọ na-achọ ibidogharịa ngwa",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

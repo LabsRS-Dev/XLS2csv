@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Oprawa",
+                "toolbar_feedback": "Informacje zwrotne",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Pomoc"
+            },
+            "toolBar": {
+                "btnImport": "Importować plik",
+                "btnClear": "Jasny",
+                "btnConvert": "Konwersja wszystkich"
+            },
+            "importDialog": {
+                "title": "Importuj plik * .xls",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "katalog wyjściowy",
+                "btnSelect": "Wybierz",
+                "selectOutputDialog": {
+                    "title": "Wybierz katalog wyjściowy",
+                    "prompt": "Wybierz"
+                },
+                "validChecker": {
+                    "validPathMsg": "To nie jest prawidłowa ścieżka folderu",
+                    "notWritablePathMsg": "Brak praw zapisu"
+                }
+            },
+            "appDescription": "Konwertowanie plików XLS"
+        },
+        "view_config": {
+            "windowTitle": "Konfiguracja Export",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "domyślne ustawienie systemowe",
+            "btnApplyAll": "Stosuje się do wszystkich",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksportuj tylko zaznaczone",
+                "InformationCaption": "Informacja",
+                "PreviewCaption": "Zapowiedź"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodowanie",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Plik ten nie może być odczytywana za pomocą metody XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Opcje",
+            "langSelectLabel": "Lokalny język",
+            "langSelectHint": "Przełączanie na inny język wymaga ponownego uruchomienia aplikacji",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

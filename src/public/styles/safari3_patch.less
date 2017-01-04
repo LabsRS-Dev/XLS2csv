@@ -1,0 +1,134 @@
+@import "defind";
+#barcode-wrap {
+
+    barcodeInput{
+        //子视图处理
+        display: inline-block;
+
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+
+
+        label{
+            color: white;
+        }
+        #barcodeValue{
+            min-width: 50%;
+        }
+        #validChecker{
+            min-width: 40%;
+            text-align: center;
+            color:orange;
+            font-size: @g_ui_fontSize;
+        }
+    }
+
+    preview {
+        //说明:Box-flex
+        height: @c_wrap_height;
+        width: auto;
+        margin-top: 16px;
+
+        display: -webkit-box;
+
+        leftArea{
+            -webkit-box-flex:5.0;
+
+            //子视图处理
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-box-pack: center;
+            -webkit-box-align: center;
+
+            //其他设置
+            .commonBox(auto, auto);
+            background: #ffffff;
+            border-radius: 15px;
+
+            #barcode{
+                background-color: #ffffff;
+                border-radius: 6px;
+                overflow: hidden;
+                margin: 0 auto;
+            }
+
+            .barcodeUseFlex{
+
+            }
+        }
+
+        rightArea{
+            -webkit-box-flex: 3.0;
+
+
+            //background: red;
+            font-size: @g_ui_fontSize;
+
+            content{
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-box-pack: center;
+
+                //其他设置
+                margin-left: 4px;
+
+                options{
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    -webkit-box-pack: center;
+
+
+                    .commonBox(auto, auto);
+                    padding: 12px;
+                    border-radius: 12px;
+                    //border:none;
+
+                    .k-numerictextbox{
+                        max-width: 60px;
+                    }
+                }
+
+                export{
+                    //说明：Box-Flex 设置
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    -webkit-box-pack: center;
+
+                    //其他设置
+                    .commonBox(auto, auto);
+                    border: none;
+                    text-align: center;
+                    padding: 36px;
+
+                    .k-button{
+                        width: @g_btn_width;
+                    }
+                }
+
+                h4,label{
+                    color: white;
+                }
+            }
+
+
+
+        }
+    }
+
+    info-footer{
+        width: 100%;
+        text-align: left;
+        padding: 4px;
+
+        #hd_scale{
+            color: #ffffff;
+            font-size: @g_ui_fontSize + 2;
+        }
+    }
+
+}

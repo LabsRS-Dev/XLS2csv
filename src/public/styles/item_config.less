@@ -1,0 +1,58 @@
+@import "defind";
+@import "styles_table1";
+
+
+.wrap-window.k-window-content.k-content{
+
+  font-size: @g_ui_fontSize;
+
+  .k-button {
+    font-family: @g_font_family;
+    min-width: 64px;
+  }
+
+  .config-info{
+    .ref-content-section();
+    border: none !important;
+  }
+
+  .config-tabs{
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    border-radius: 8px;
+
+    //加滚动效果
+    //overflow-y: auto;
+    //overflow-x: auto;
+
+    ul{
+      font-weight: bold;
+      text-transform: none;
+    }
+
+    .content-section {
+      .ref-content-section();
+      border: none !important;
+
+      h4 {
+        text-transform: capitalize;
+      }
+      .style_table1();
+    }
+
+    .sheet-content-preview{
+      .scroll-content {
+        overflow-y: scroll;
+        overflow-x: scroll;
+        max-height: 180px;
+      }
+    }
+  }
+
+  .config-btns{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}

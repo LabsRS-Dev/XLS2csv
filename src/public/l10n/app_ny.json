@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "kolowera",
+                "toolbar_feedback": "Feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Thandizeni"
+            },
+            "toolBar": {
+                "btnImport": "fayiloyi",
+                "btnClear": "Chotsani",
+                "btnConvert": "kutembenuza zonse"
+            },
+            "importDialog": {
+                "title": "Tengani * .xls file",
+                "prompt": "Tengani"
+            },
+            "output": {
+                "outputLabel": "linanena bungwe Directory",
+                "btnSelect": "sankhani",
+                "selectOutputDialog": {
+                    "title": "Select Directory linanena bungwe",
+                    "prompt": "sankhani"
+                },
+                "validChecker": {
+                    "validPathMsg": "Si zomveka foda njira",
+                    "notWritablePathMsg": "No lemba chilolezo"
+                }
+            },
+            "appDescription": "owona mtanda wotembenuka XLS"
+        },
+        "view_config": {
+            "windowTitle": "Tumizani kasinthidwe",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "dongosolo kusakhulupirika",
+            "btnApplyAll": "Ntchito yonse",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Tumizani zokhazo anasankha",
+                "InformationCaption": "mudziwe",
+                "PreviewCaption": "chithunzithunzi"
+            },
+            "PageOthers": {
+                "encodingLabel": "wolemba pulogalamu",
+                "separatorLabel": "olekanitsa"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "file izi sangathe kuwerenga pogwiritsa ntchito njira XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Zosintha",
+            "langSelectLabel": "mchiyankhulo",
+            "langSelectHint": "Pitani ku chinenero china umafunikanso restarting ntchito",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

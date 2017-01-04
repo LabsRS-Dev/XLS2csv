@@ -1,0 +1,59 @@
+.windowsBackground {
+  background-image: none, -webkit-linear-gradient(top, rgba(255, 255, 255, 0.6) 0, rgba(255, 255, 255, 0) 100%);
+  background-image: none, -moz-linear-gradient(top, rgba(255, 255, 255, 0.6) 0, rgba(255, 255, 255, 0) 100%);
+  background-image: none, -o-linear-gradient(top, rgba(255, 255, 255, 0.6) 0, rgba(255, 255, 255, 0) 100%);
+  /* background-image: none,linear-gradient(to bottom,rgba(255,255,255,.6) 0,rgba(255,255,255,.0) 100%); */
+  background-position: 50% 50%;
+  background-color: #e3e3e3;
+}
+#feedBack-window .app-section {
+  padding: 4px;
+}
+#feedBack-window .app-section .fieldlist {
+  margin: 0 0 -1em;
+  padding: 0;
+}
+#feedBack-window .app-section .fieldlist li {
+  list-style: none;
+  line-height: 3em;
+}
+#feedBack-window .app-section .fieldlist label {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+#feedBack-window .app-section .fieldlist input,
+#feedBack-window .app-section textarea {
+  font-family: "Helvetica Neue", Helvetica, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+#feedBack-window .app-section .fieldlist input {
+  width: 66%;
+}
+#feedBack-window .app-section .fieldlist textarea {
+  width: 92%;
+  resize: none;
+}
+#feedBack-window .app-section .fieldlist li.status {
+  text-align: center;
+}
+#feedBack-window .app-section .fieldlist li .k-widget:not(.k-tooltip),
+#feedBack-window .app-section .fieldlist li .k-textbox {
+  margin: 0 5px 5px 0;
+}
+#feedBack-window .app-section .confirm {
+  padding-top: 1em;
+}
+#feedBack-window .app-section .valid {
+  color: green;
+}
+#feedBack-window .app-section .invalid {
+  color: red;
+}
+#feedBack-window .k-footer {
+  text-align: center;
+  padding: 1em;
+}

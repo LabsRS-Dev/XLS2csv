@@ -1,0 +1,260 @@
+// Color variables (appears count calculates by raw css)
+
+@colorAppName: #FFFFFF;
+@colorAppDescription: #FFFFFF;
+@g_btn_width: 96px;
+@g_ui_fontSize: 11px;
+@g_font_family: 'Myriad Set Pro', 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+@c_wrap_height: auto;
+@c_wrap_width: 90%;
+
+@g_font_color: #FFFFFF;
+@g_background_color: #292525; //全局背景
+@g_background_img: url("../images/bg/bgnoise_lg_black.png");
+@g_background_linear-gradient:none, linear-gradient(to bottom, rgba(42, 42, 42, 0.6) 0, rgba(236, 236, 236, .0) 100%);
+
+
+/***************************
+ * 通用设置
+***************************/
+.text-muted {
+  color: #e2e2e2;
+}
+
+.ref-content-section {
+  border: 1px solid #f2f2f2;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 28);
+  /*-ms-filter must come before filter*/
+  filter: alpha(opacity=28);
+  /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+  /*All filters must be placed together*/
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+.commonShadow { // 通用的阴影处理
+  padding: 0 30px;
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, .1), 0 0 10px rgba(0, 0, 0, .6);
+  -webkit-box-shadow: inset 0 0 100px rgba(255, 255, 255, .1), 0 0 10px rgba(0, 0, 0, .6);
+  -moz-box-shadow: inset 0 0 100px rgba(255, 255, 255, .1), 0 0 10px rgba(0, 0, 0, .6);
+}
+
+.commonBox(@w, @h) { // 通用的Box处理
+  width: @w;
+  height: @h;
+  white-space: nowrap;
+  border: 1px solid rgba(255, 255, 255, .2);
+  text-align: left;
+}
+
+.commonAside {
+  flex: 1 auto;
+}
+
+// 兼容CSS的处理，针对Flex模式
+// see http://www.w3cplus.com/css3/a-guide-to-flexbox-new.html
+// display: flex
+.compatibility-display-flex {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+// order
+.compatibility-order(@content) {
+  -webkit-box-ordinal-group: @content; /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-ordinal-group: @content; /* OLD - Firefox 19- */
+  -ms-flex-order: @content; /* TWEENER - IE 10 */
+  -webkit-order: @content; /* NEW - Chrome */
+  order: @content; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+// flex
+.compatibility-flex(@content, @content1) {
+  -webkit-box-flex: @content; /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: @content @content1; /* OLD - Firefox 19- */
+  -webkit-flex: @content @content1; /* Chrome */
+  -ms-flex: @content @content1; /* IE 10 */
+  flex: @content @content1; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+// flex-direction
+.compatibility-flex-direction(@content) {
+  -webkit-box-direction: @content;
+  -moz-box-direction: @content;
+  -webkit-flex-direction: @content;
+  -ms-flex-direction: @content;
+  flex-direction: @content;
+}
+
+// flex-wrap
+.compatibility-flex-wrap(@content) {
+  -webkit-flex-wrap: @content;
+  -ms-flex-wrap: @content;
+  flex-wrap: @content;
+}
+
+// flex-flow
+.compatibility-flex-flow(@content) {
+  -moz-flex-flow: @content;
+  -ms-flex-flow: @content;
+  -webkit-flex-flow: @content;
+  flex-flow: @content;
+}
+
+// flex-grow
+.compatibility-flex-grow(@content) {
+
+  -webkit-flex-grow: @content;
+  flex-grow: @content;
+
+}
+
+// flex-shrink
+.compatibility-flex-shrink(@content) {
+
+  -webkit-flex-shrink: @content;
+  flex-shrink: @content;
+}
+
+// flex-basis
+.compatibility-flex-basis(@content) {
+
+  -webkit-flex-basis: @content;
+  flex-basis: @content;
+}
+
+// justify-content
+.compatibility-justify-content(@content) {
+
+  -webkit-justify-content: @content;
+  justify-content: @content;
+}
+
+// align-items
+.compatibility-align-items(@content) {
+
+  -webkit-box-align: @content;
+  -webkit-align-items: @content;
+  align-items: @content;
+}
+
+// align-content
+.compatibility-align-content(@content) {
+
+  -webkit-align-content: @content;
+  align-content: @content;
+}
+
+// align-self
+.compatibility-align-self(@content) {
+
+  -webkit-align-self: @content;
+  align-self: @content;
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.ref_g_scrollbar_black{
+  /***
+*** 滚动条部分
+http://www.xuanfengge.com/css3-webkit-scrollbar.html
+::-webkit-scrollbar 滚动条整体部分
+::-webkit-scrollbar-thumb  滚动条里面的小方块，能向上向下移动（或往左往右移动，取决于是垂直滚动条还是水平滚动条）
+::-webkit-scrollbar-track  滚动条的轨道（里面装有Thumb）
+::-webkit-scrollbar-button 滚动条的轨道的两端按钮，允许通过点击微调小方块的位置。
+::-webkit-scrollbar-track-piece 内层轨道，滚动条中间部分（除去）
+::-webkit-scrollbar-corner 边角，即两个滚动条的交汇处
+::-webkit-resizer 两个滚动条的交汇处上用于通过拖动调整元素大小的小控件
+***/
+
+  ::-webkit-scrollbar {
+    height: 11px;
+    width: 11px
+  }
+  ::-webkit-scrollbar-button {
+    height: 0;
+    width: 0
+  }
+  ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+    display: block
+  }
+  ::-webkit-scrollbar-button:vertical:start:increment, ::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none
+  }
+
+  // 垂直和水平条的样式
+  //::-webkit-scrollbar-track {
+  //  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  //  border-radius: 10px;
+  //  background-color: #F5F5F5;
+  //}
+
+  // 滚动条滑块的样式
+  ::-webkit-scrollbar-thumb
+  {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+  }
+
+  //边角，即两个滚动条的交汇处
+  ::-webkit-scrollbar-corner{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.02);
+    background-color: rgba(0, 0, 0, .02);
+  }
+
+
+  ::-webkit-scrollbar-track:vertical, ::-webkit-scrollbar-track:horizontal, ::-webkit-scrollbar-thumb:vertical, ::-webkit-scrollbar-thumb:horizontal, ::-webkit-scrollbar-track:vertical, ::-webkit-scrollbar-track:horizontal, ::-webkit-scrollbar-thumb:vertical, ::-webkit-scrollbar-thumb:horizontal {
+    border-style: solid;
+    border-color: transparent
+  }
+  ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+    background-clip: padding-box;
+    background-color: #fff;
+  }
+  ::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+    background-clip: padding-box;
+    background-color: rgba(0, 0, 0, .2);
+    min-height: 28px;
+    padding-top: 100
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .4)
+  }
+  ::-webkit-scrollbar-thumb:active {
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .35);
+    background-color: rgba(0, 0, 0, .5)
+  }
+  ::-webkit-scrollbar-track:vertical, ::-webkit-scrollbar-track:horizontal, ::-webkit-scrollbar-thumb:vertical, ::-webkit-scrollbar-thumb:horizontal {
+    border-width: 0;
+  }
+  ::-webkit-scrollbar-track:hover {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .05)
+  }
+  ::-webkit-scrollbar-track:active {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .14),inset -1px -1px 0 rgba(0, 0, 0, .07);
+    background-color: rgba(0, 0, 0, .05)
+  }
+  ::-webkit-resizer {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .05)
+  }
+}

@@ -1,0 +1,134 @@
+/***************************
+ * 通用设置
+***************************/
+.text-muted {
+  color: #e2e2e2;
+}
+.ref-content-section {
+  border: 1px solid #f2f2f2;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=28);
+  /*-ms-filter must come before filter*/
+  filter: alpha(opacity=28);
+  /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+  /*All filters must be placed together*/
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+.commonShadow {
+  padding: 0 30px;
+  box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.1), 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.commonAside {
+  flex: 1 auto;
+}
+.compatibility-display-flex {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+.ref_g_scrollbar_black {
+  /***
+*** 滚动条部分
+http://www.xuanfengge.com/css3-webkit-scrollbar.html
+::-webkit-scrollbar 滚动条整体部分
+::-webkit-scrollbar-thumb  滚动条里面的小方块，能向上向下移动（或往左往右移动，取决于是垂直滚动条还是水平滚动条）
+::-webkit-scrollbar-track  滚动条的轨道（里面装有Thumb）
+::-webkit-scrollbar-button 滚动条的轨道的两端按钮，允许通过点击微调小方块的位置。
+::-webkit-scrollbar-track-piece 内层轨道，滚动条中间部分（除去）
+::-webkit-scrollbar-corner 边角，即两个滚动条的交汇处
+::-webkit-resizer 两个滚动条的交汇处上用于通过拖动调整元素大小的小控件
+***/
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar {
+  height: 11px;
+  width: 11px;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:start:decrement,
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:end:increment {
+  display: block;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:vertical:start:increment,
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal {
+  border-style: solid;
+  border-color: transparent;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+  background-clip: padding-box;
+  background-color: #fff;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+  background-clip: padding-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 28px;
+  padding-top: 100;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:hover {
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:active {
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal {
+  border-width: 0;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:hover {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:active {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.14), inset -1px -1px 0 rgba(0, 0, 0, 0.07);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ref_g_scrollbar_black ::-webkit-resizer {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}

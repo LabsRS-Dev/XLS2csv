@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Setting",
+                "toolbar_feedback": "feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Tabangi"
+            },
+            "toolBar": {
+                "btnImport": "import File",
+                "btnClear": "Tin-aw",
+                "btnConvert": "kinabig sa tanan nga mga"
+            },
+            "importDialog": {
+                "title": "Import * .xls file",
+                "prompt": "import"
+            },
+            "output": {
+                "outputLabel": "output directory",
+                "btnSelect": "pagpili",
+                "selectOutputDialog": {
+                    "title": "Pagpili directory output",
+                    "prompt": "pagpili"
+                },
+                "validChecker": {
+                    "validPathMsg": "Kini mao ang dili usa ka balido nga suksukanan sa papel nga dalan",
+                    "notWritablePathMsg": "Walay isulat pagtugot"
+                }
+            },
+            "appDescription": "Batch kinabig XLS file"
+        },
+        "view_config": {
+            "windowTitle": "export kontorno",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistema sa default",
+            "btnApplyAll": "Ibutang ang ngadto sa tanan nga mga",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Export lamang pinili nga mga butang",
+                "InformationCaption": "impormasyon",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "payl Kini nga dili mabasa pinaagi sa paggamit sa usa ka pamaagi XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "mga kapilian",
+            "langSelectLabel": "lokal nga pinulongan",
+            "langSelectHint": "Switch sa laing pinulongan nagkinahanglan og pagsugod ug balik sa sa aplikasyon",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

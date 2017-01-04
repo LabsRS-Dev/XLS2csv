@@ -1,0 +1,31 @@
+<div id="feedBack-window"></div>
+
+<script type="text/x-kendo-template" id="template-window-feedback">
+    <div class="k-content">
+        <div class="app-section">
+            <form id="feedbackForm">
+                <ul class="fieldlist">
+                    <li>
+                        <label for="feedback-ui-name" class="required">Your Name</label>
+                        <input id="feedback-ui-name" name="Your Name" placeholder="Your Name" type="text" class="k-textbox" required validationMessage="Enter {0}" />
+                    </li>
+                    <li>
+                        <label for="feedback-ui-email" class="required">Your Email</label>
+                        <input id="feedback-ui-email" name="Your Email" placeholder="Your Email" type="email" class="k-textbox"
+                               required validationMessage="Enter {0}"/>
+                    </li>
+                    <li>
+                        <label for="feedback-ui-message" class="required">Your Message</label>
+                        <textarea id="feedback-ui-message" name="Your Feedback Message" rows="4"
+                                  placeholder="Feedback Message"
+                                  class="k-textbox" ></textarea>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <div class="k-footer">
+            <button class="k-button k-primary">Send</button>
+        </div>
+    </div>
+</script>

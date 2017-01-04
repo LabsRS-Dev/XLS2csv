@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "chaw",
+                "toolbar_feedback": "Tswv yim",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "pab"
+            },
+            "toolBar": {
+                "btnImport": "Ntshuam ntaub ntawv",
+                "btnClear": "Clear",
+                "btnConvert": "hloov tag nrho"
+            },
+            "importDialog": {
+                "title": "Ntshuam * .xls cov ntaub ntawv",
+                "prompt": "Ntshuam"
+            },
+            "output": {
+                "outputLabel": "Tso zis directory",
+                "btnSelect": "xaiv",
+                "selectOutputDialog": {
+                    "title": "Xaiv cov zis directory",
+                    "prompt": "xaiv"
+                },
+                "validChecker": {
+                    "validPathMsg": "Nws tsis yog ib tug siv tau nplaub tshev txoj kev",
+                    "notWritablePathMsg": "Tsis sau tso cai"
+                }
+            },
+            "appDescription": "Batch hloov siab los ntseeg XLS cov ntaub ntawv"
+        },
+        "view_config": {
+            "windowTitle": "export Configuration",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "system neej ntawd hais",
+            "btnApplyAll": "Thov mus Tag nrho",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Export tsuas xaiv yam khoom",
+                "InformationCaption": "ntaub ntawv",
+                "PreviewCaption": "saib ua ntej"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "Separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Qhov no cov ntaub ntawv yuav tsis tau nyeem los ntawm kev siv ib txoj kev XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Options",
+            "langSelectLabel": "Local lus",
+            "langSelectHint": "Hloov mus rau lwm hom lus yuav tsum restarting hauv daim ntawv thov",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

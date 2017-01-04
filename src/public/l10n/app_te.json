@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "సెట్టింగు",
+                "toolbar_feedback": "అభిప్రాయం",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "సహాయం"
+            },
+            "toolBar": {
+                "btnImport": "దిగుమతి ఫైలు",
+                "btnClear": "ప్రశాంతంగా",
+                "btnConvert": "అన్ని మార్చండి"
+            },
+            "importDialog": {
+                "title": "దిగుమతి * .xls ఫైల్",
+                "prompt": "దిగుమతి"
+            },
+            "output": {
+                "outputLabel": "అవుట్పుట్ డైరెక్టరీ",
+                "btnSelect": "ఎంచుకోండి",
+                "selectOutputDialog": {
+                    "title": "అవుట్పుట్ డైరెక్టరీని ఎంచుకోండి",
+                    "prompt": "ఎంచుకోండి"
+                },
+                "validChecker": {
+                    "validPathMsg": "ఇది చెల్లని ఫోల్డర్ మార్గం కాదు",
+                    "notWritablePathMsg": "సంఖ్య వ్రాయడం అనుమతి"
+                }
+            },
+            "appDescription": "బ్యాచ్ మతమార్పిడి XLS ఫైళ్లు"
+        },
+        "view_config": {
+            "windowTitle": "ఎగుమతి ఆకృతీకరణ",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "వ్యవస్థ డిఫాల్ట్",
+            "btnApplyAll": "అన్ని వర్తించు",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "ఎంచుకున్న అంశాలను ఎగుమతి",
+                "InformationCaption": "సమాచారం",
+                "PreviewCaption": "ప్రివ్యూ"
+            },
+            "PageOthers": {
+                "encodingLabel": "కోడింగ్",
+                "separatorLabel": "విభాగిని"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ఈ ఫైలు పద్ధతి ఉపయోగించి చదవలేము XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "ఎంపికలు",
+            "langSelectLabel": "స్థానిక భాష",
+            "langSelectHint": "మరో భాషకు కెడిఈ పరిక్షా పునఃప్రారంభించాల్సిన",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

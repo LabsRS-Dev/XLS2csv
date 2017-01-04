@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Beállítás",
+                "toolbar_feedback": "Visszacsatolás",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Segítség"
+            },
+            "toolBar": {
+                "btnImport": "Fájl importálása",
+                "btnClear": "Egyértelmű",
+                "btnConvert": "Konvertálás minden"
+            },
+            "importDialog": {
+                "title": "Import * .xls fájlt",
+                "prompt": "import"
+            },
+            "output": {
+                "outputLabel": "kimeneti könyvtár",
+                "btnSelect": "választ",
+                "selectOutputDialog": {
+                    "title": "Select kimeneti könyvtár",
+                    "prompt": "választ"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ez nem érvényes a mappa elérési",
+                    "notWritablePathMsg": "Nincs írási jogosultsága"
+                }
+            },
+            "appDescription": "Batch convert XLS fájlokat"
+        },
+        "view_config": {
+            "windowTitle": "export konfiguráció",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "rendszer alapértelmezett",
+            "btnApplyAll": "Alkalmazás az összes",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exportálni csak a kijelölt tételeket",
+                "InformationCaption": "információ",
+                "PreviewCaption": "Előnézet"
+            },
+            "PageOthers": {
+                "encodingLabel": "kódolás",
+                "separatorLabel": "Szétválasztó"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ezt a fájlt nem lehet olvasni olyan módszerrel XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Lehetőségek",
+            "langSelectLabel": "helyi nyelv",
+            "langSelectHint": "Váltás más nyelvre újraindítását igényli a kérelem",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

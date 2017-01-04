@@ -1,0 +1,62 @@
+{
+  "UI":{
+    "common":{
+    },
+    "view_main":{
+      "toolBar":{
+        "btnImport":"Import files",
+        "btnClear":"Clear all",
+        "btnConvert":"Convert all"
+      },
+      "importDialog":{
+        "title":"Import *.xls files",
+        "prompt":"Import"
+      },
+      "output":{
+        "outputLabel":"Output directory",
+        "btnSelect":"Select",
+        "selectOutputDialog":{
+          "title":"Select output directory",
+          "prompt":"Select"
+        },
+        "validChecker":{
+          "validPathMsg":"Is not a valid folder path",
+          "notWritablePathMsg":"Not have write permission"
+        }
+      },
+      "appDescription":"Batch xls files convert to csv"
+    },
+    "view_config":{
+      "windowTitle":"Export Config",
+      "configInfo":"",
+      "optionSheetTitle":"sheet",
+      "optionOthersTitle":"others",
+      "btnCancel":"Cancel",
+      "btnOK":"OK",
+      "btnDefault":"System Default",
+      "btnApplyAll":"Apply to others",
+      "PageSheet":{
+        "sectionTitle":"Sheets select setting",
+        "checkBoxLabel":"Only export this sheet.",
+
+        "InformationCaption":"Information",
+        "PreviewCaption":"Preview"
+      },
+      "PageOthers":{
+        "encodingLabel":"encoding for csv",
+        "separatorLabel":"separator for csv"
+      },
+      "Error":{
+        "GetXLSInfoErrWithCantOpenFile":"This file cannot be read by using the XLS.read method"
+      }
+    },
+    "view_settings":{
+      "windowTitle":"Preferences",
+      "langSelectLabel":"Local language",
+      "langSelectHint":"Change other language need to restart",
+
+      "btnCancel":"Cancel",
+      "btnOK":"OK"
+    }
+  }
+}

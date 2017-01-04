@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "환경",
+                "toolbar_feedback": "피드백",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "도움"
+            },
+            "toolBar": {
+                "btnImport": "파일 가져 오기",
+                "btnClear": "명확한",
+                "btnConvert": "모든 변환"
+            },
+            "importDialog": {
+                "title": "가져 오기 *의 .xls 파일",
+                "prompt": "수입"
+            },
+            "output": {
+                "outputLabel": "출력 디렉토리",
+                "btnSelect": "고르다",
+                "selectOutputDialog": {
+                    "title": "선택 출력 디렉토리",
+                    "prompt": "고르다"
+                },
+                "validChecker": {
+                    "validPathMsg": "그것은 유효한 폴더 경로가 아닙니다",
+                    "notWritablePathMsg": "더 쓰기 권한이 없습니다"
+                }
+            },
+            "appDescription": "일괄 변환 XLS 파일"
+        },
+        "view_config": {
+            "windowTitle": "구성 내보내기",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "시스템 기본",
+            "btnApplyAll": "모두 적용",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "선택된 항목 내보내기",
+                "InformationCaption": "정보",
+                "PreviewCaption": "시사"
+            },
+            "PageOthers": {
+                "encodingLabel": "코딩",
+                "separatorLabel": "분리 기호"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "이 파일은 법에 의해 판독 될 수 XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "옵션",
+            "langSelectLabel": "현지 언어로",
+            "langSelectHint": "다른 언어로 전환 응용 프로그램을 다시 시작해야",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

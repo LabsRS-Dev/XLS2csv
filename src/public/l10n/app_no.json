@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Innstilling",
+                "toolbar_feedback": "Tilbakemelding",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Hjelp"
+            },
+            "toolBar": {
+                "btnImport": "import File",
+                "btnClear": "Klar",
+                "btnConvert": "Konverter alle"
+            },
+            "importDialog": {
+                "title": "Import * .xls fil",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "utgang katalog",
+                "btnSelect": "plukke ut",
+                "selectOutputDialog": {
+                    "title": "Velg utgang katalog",
+                    "prompt": "plukke ut"
+                },
+                "validChecker": {
+                    "validPathMsg": "Det er ikke en gyldig mappebane",
+                    "notWritablePathMsg": "Ingen skrivetilgang"
+                }
+            },
+            "appDescription": "Batch konvertere xls filer"
+        },
+        "view_config": {
+            "windowTitle": "Eksporter konfigurasjon",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "standard system",
+            "btnApplyAll": "Bruk på alle",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksportere bare valgte elementer",
+                "InformationCaption": "informasjon",
+                "PreviewCaption": "Forhåndsvisning"
+            },
+            "PageOthers": {
+                "encodingLabel": "koding",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Denne filen kan ikke leses ved hjelp av en metode XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "alternativer",
+            "langSelectLabel": "lokal språk",
+            "langSelectHint": "Bytt til et annet språk krever omstart av programmet",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

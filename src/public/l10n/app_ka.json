@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Setting",
+                "toolbar_feedback": "კავშირი",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "დახმარება"
+            },
+            "toolBar": {
+                "btnImport": "იმპორტი ფაილი",
+                "btnClear": "Clear",
+                "btnConvert": "კონვერტაციის ყველა"
+            },
+            "importDialog": {
+                "title": "იმპორტი * .xls ფაილი",
+                "prompt": "იმპორტი"
+            },
+            "output": {
+                "outputLabel": "გასა",
+                "btnSelect": "აირჩიეთ",
+                "selectOutputDialog": {
+                    "title": "აირჩიეთ გამომავალი დირექტორია",
+                    "prompt": "აირჩიეთ"
+                },
+                "validChecker": {
+                    "validPathMsg": "ეს არ არის სწორი საქაღალდეში გზა",
+                    "notWritablePathMsg": "არარის წერენ ნებართვა"
+                }
+            },
+            "appDescription": "Batch კონვერტირება XLS ფაილი"
+        },
+        "view_config": {
+            "windowTitle": "ფაილით",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "სისტემის ნაგულისხმები",
+            "btnApplyAll": "ვრცელდება ყველა",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "ექსპორტის მხოლოდ შერჩეულ ნივთები",
+                "InformationCaption": "ინფორმაცია",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "კოდირების",
+                "separatorLabel": "გამყოფი"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ეს ფაილი არ იკითხება გამოყენებით საშუალებას XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "პარამეტრები",
+            "langSelectLabel": "ადგილობრივ ენაზე",
+            "langSelectHint": "სხვა ენაზე გადართვა მოითხოვს გადატვირთვით განცხადება",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

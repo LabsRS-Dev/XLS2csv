@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "pengaturan",
+                "toolbar_feedback": "umpan balik",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Membantu"
+            },
+            "toolBar": {
+                "btnImport": "impor Berkas",
+                "btnClear": "Bersih",
+                "btnConvert": "mengkonversi semua"
+            },
+            "importDialog": {
+                "title": "Impor file * .xls",
+                "prompt": "Impor"
+            },
+            "output": {
+                "outputLabel": "direktori keluaran",
+                "btnSelect": "memilih",
+                "selectOutputDialog": {
+                    "title": "Pilih direktori keluaran",
+                    "prompt": "memilih"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ini bukan jalur folder valid",
+                    "notWritablePathMsg": "Tidak ada izin menulis"
+                }
+            },
+            "appDescription": "file XLS Batch mengkonversi"
+        },
+        "view_config": {
+            "windowTitle": "Konfigurasi ekspor",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "bawaan sistem",
+            "btnApplyAll": "Terapkan ke semua",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Ekspor barang-barang yang dipilih",
+                "InformationCaption": "informasi",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "alat pemisah"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "File ini tidak dapat dibaca dengan menggunakan metode XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Pilihan",
+            "langSelectLabel": "Bahasa daerah",
+            "langSelectHint": "Beralih ke bahasa lain membutuhkan restart aplikasi",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

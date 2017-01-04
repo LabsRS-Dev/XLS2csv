@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Kafa",
+                "toolbar_feedback": "feedback",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Taimake"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "Sunny",
+                "btnConvert": "maida dukan"
+            },
+            "importDialog": {
+                "title": "Import * .xls fayil",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "Output directory",
+                "btnSelect": "zaži",
+                "selectOutputDialog": {
+                    "title": "Zabi fitarwa directory",
+                    "prompt": "zaži"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ba shi da wani inganci fayil hanya",
+                    "notWritablePathMsg": "No rubuta izni"
+                }
+            },
+            "appDescription": "Batch tuba XLS files"
+        },
+        "view_config": {
+            "windowTitle": "Export Kanfigareshan",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "tsarin tsoho",
+            "btnApplyAll": "Aiwatar to All",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Aika kawai zabi items",
+                "InformationCaption": "bayanai",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "coding",
+                "separatorLabel": "SEPARATOR"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Wannan fayil ba za a iya karanta ta amfani da hanyar XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Zabuka",
+            "langSelectLabel": "Local harshe",
+            "langSelectHint": "Canja zuwa wani harshe bukatar restarting da aikace-aikacen",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

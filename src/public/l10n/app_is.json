@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "stilling",
+                "toolbar_feedback": "athugasemdir",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Hjálp"
+            },
+            "toolBar": {
+                "btnImport": "Flytja File",
+                "btnClear": "Hreinsa",
+                "btnConvert": "umbreyta allir"
+            },
+            "importDialog": {
+                "title": "Flytja * .xls skrá",
+                "prompt": "innflutningur"
+            },
+            "output": {
+                "outputLabel": "Output skrá",
+                "btnSelect": "velja",
+                "selectOutputDialog": {
+                    "title": "Veldu framleiðsla skrá",
+                    "prompt": "velja"
+                },
+                "validChecker": {
+                    "validPathMsg": "Það er ekki gild möppuslóð",
+                    "notWritablePathMsg": "Engin skrifréttindi"
+                }
+            },
+            "appDescription": "Hópur umbreyta XLS skrá"
+        },
+        "view_config": {
+            "windowTitle": "Flytja Stillingar",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "kerfið sjálfgefið",
+            "btnApplyAll": "Gilda um alla",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Flytja aðeins valin atriði",
+                "InformationCaption": "upplýsingar",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "erfðaskrá",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Þessi skrá er ekki hægt að lesa með því að nota aðferð XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Valmöguleikar",
+            "langSelectLabel": "Local tungumál",
+            "langSelectHint": "Skipta yfir í annað tungumál krefst endurræsa forritið",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

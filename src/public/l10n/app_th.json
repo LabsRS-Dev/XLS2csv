@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "การตั้งค่า",
+                "toolbar_feedback": "ข้อเสนอแนะ",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "ช่วยด้วย"
+            },
+            "toolBar": {
+                "btnImport": "นำเข้าแฟ้ม",
+                "btnClear": "ชัดเจน",
+                "btnConvert": "แปลงทุก"
+            },
+            "importDialog": {
+                "title": "นำเข้าไฟล์ * .xls",
+                "prompt": "นำเข้า"
+            },
+            "output": {
+                "outputLabel": "ไดเรกทอรีออก",
+                "btnSelect": "เลือก",
+                "selectOutputDialog": {
+                    "title": "เลือกไดเรกทอรีออก",
+                    "prompt": "เลือก"
+                },
+                "validChecker": {
+                    "validPathMsg": "มันไม่ได้เป็นเส้นทางโฟลเดอร์ที่ถูกต้อง",
+                    "notWritablePathMsg": "ไม่มีสิทธิ์ในการเขียน"
+                }
+            },
+            "appDescription": "ไฟล์ XLS ชุดแปลง"
+        },
+        "view_config": {
+            "windowTitle": "การกำหนดค่าการส่งออก",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "เริ่มต้นของระบบ",
+            "btnApplyAll": "นำไปใช้กับทั้งหมด",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "ส่งออกสินค้าที่เลือกเท่านั้น",
+                "InformationCaption": "ข้อมูล",
+                "PreviewCaption": "ดูตัวอย่าง"
+            },
+            "PageOthers": {
+                "encodingLabel": "การเข้ารหัส",
+                "separatorLabel": "เครื่องสกัด"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ไฟล์นี้ไม่สามารถอ่านได้โดยใช้วิธีการ XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "ตัวเลือก",
+            "langSelectLabel": "ภาษาท้องถิ่น",
+            "langSelectHint": "เปลี่ยนไปเป็นภาษาอื่นต้องรีสตาร์ทแอพลิเคชัน",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

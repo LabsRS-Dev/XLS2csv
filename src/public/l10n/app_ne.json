@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "सेटिङ",
+                "toolbar_feedback": "प्रतिक्रिया",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "मदत"
+            },
+            "toolBar": {
+                "btnImport": "फाइल आयात",
+                "btnClear": "स्पष्ट",
+                "btnConvert": "सबै रूपान्तरण"
+            },
+            "importDialog": {
+                "title": "आयात * .xls फाइल",
+                "prompt": "आयात"
+            },
+            "output": {
+                "outputLabel": "उत्पादन निर्देशिका",
+                "btnSelect": "चयन",
+                "selectOutputDialog": {
+                    "title": "उत्पादन निर्देशिका चयन",
+                    "prompt": "चयन"
+                },
+                "validChecker": {
+                    "validPathMsg": "यो मान्य फोल्डर मार्ग छैन",
+                    "notWritablePathMsg": "कुनै लेख्ने अनुमति"
+                }
+            },
+            "appDescription": "ब्याच परिवर्तित XLS फाइलहरू"
+        },
+        "view_config": {
+            "windowTitle": "निर्यात विन्यास",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "सिस्टम पूर्वनिर्धारित",
+            "btnApplyAll": "सबै लागू",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "मात्र चयन गरिएका वस्तुहरू निर्यात",
+                "InformationCaption": "जानकारी",
+                "PreviewCaption": "पूर्वावलोकन"
+            },
+            "PageOthers": {
+                "encodingLabel": "कोडिङ",
+                "separatorLabel": "विभाजक"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "यो फाइल विधि प्रयोग गरेर पढ्न सकिँदैन XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "विकल्पहरू",
+            "langSelectLabel": "स्थानीय भाषा",
+            "langSelectHint": "अर्को भाषामा स्विच अनुप्रयोग पुन: सुरु आवश्यक",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

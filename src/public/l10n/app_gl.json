@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "escenario",
+                "toolbar_feedback": "Suxestións",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "axudar"
+            },
+            "toolBar": {
+                "btnImport": "importación de ficheiro",
+                "btnClear": "claro",
+                "btnConvert": "converter todo"
+            },
+            "importDialog": {
+                "title": "arquivo .xls importación *",
+                "prompt": "importación"
+            },
+            "output": {
+                "outputLabel": "directorio de saída",
+                "btnSelect": "seleccionar",
+                "selectOutputDialog": {
+                    "title": "Escolla un directorio de saída",
+                    "prompt": "seleccionar"
+                },
+                "validChecker": {
+                    "validPathMsg": "Non é un camiño de cartafol válido",
+                    "notWritablePathMsg": "Sen permiso de escrita"
+                }
+            },
+            "appDescription": "arquivos xls converter en solar"
+        },
+        "view_config": {
+            "windowTitle": "Configuración de exportación",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "estándar do sistema",
+            "btnApplyAll": "Aplicar a todos",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Exportar só os elementos seleccionados",
+                "InformationCaption": "información",
+                "PreviewCaption": "visualización"
+            },
+            "PageOthers": {
+                "encodingLabel": "codificación",
+                "separatorLabel": "separador"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Este ficheiro non se pode ler a través dun método XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "opcións",
+            "langSelectLabel": "lingua local",
+            "langSelectHint": "Cambiar a outra lingua require reiniciar o aplicativo",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

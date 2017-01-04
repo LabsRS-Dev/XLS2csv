@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "anviwònman",
+                "toolbar_feedback": "Commentaires",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Ede"
+            },
+            "toolBar": {
+                "btnImport": "Import File",
+                "btnClear": "Klè",
+                "btnConvert": "Konvèti tout"
+            },
+            "importDialog": {
+                "title": "Import * dosye .xls",
+                "prompt": "Import"
+            },
+            "output": {
+                "outputLabel": "Sòti anyè",
+                "btnSelect": "chwazi",
+                "selectOutputDialog": {
+                    "title": "Chwazi anyè pwodiksyon",
+                    "prompt": "chwazi"
+                },
+                "validChecker": {
+                    "validPathMsg": "Li se pa yon chemen folder valab",
+                    "notWritablePathMsg": "Pa gen ekri pèmisyon"
+                }
+            },
+            "appDescription": "Pakèt konvèti dosye PDF"
+        },
+        "view_config": {
+            "windowTitle": "Export nou konte ofri sèvis",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistèm default",
+            "btnApplyAll": "Aplike nan tout",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Ekspòte sèlman chwazi atik",
+                "InformationCaption": "enfòmasyon",
+                "PreviewCaption": "Preview"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodaj",
+                "separatorLabel": "séparation"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Sa a ranpli pa ka li lè l sèvi avèk yon metòd XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "opsyon",
+            "langSelectLabel": "lang Lokal",
+            "langSelectHint": "Bouton nan yon lòt lang mande pou rekòmanse aplikasyon an",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

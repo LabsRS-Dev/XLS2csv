@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "fikso",
+                "toolbar_feedback": "sugestoj",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "helpi"
+            },
+            "toolBar": {
+                "btnImport": "Importi Dosiero",
+                "btnClear": "klara",
+                "btnConvert": "konverti ĉiuj"
+            },
+            "importDialog": {
+                "title": "Import * .xls dosiero",
+                "prompt": "import"
+            },
+            "output": {
+                "outputLabel": "eligan dosierujon",
+                "btnSelect": "elektu",
+                "selectOutputDialog": {
+                    "title": "Unuaranga eligan dosierujon",
+                    "prompt": "elektu"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ĝi ne estas valida dosierujo vojon",
+                    "notWritablePathMsg": "Neniu registran permeson"
+                }
+            },
+            "appDescription": "Batch konvertito XLS dosierojn"
+        },
+        "view_config": {
+            "windowTitle": "eksporti Agordo",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistemo defaŭlta",
+            "btnApplyAll": "Apliki al Ĉiuj",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Eksporti nur selektitaj erojn",
+                "InformationCaption": "informo",
+                "PreviewCaption": "antaŭvido"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodigo",
+                "separatorLabel": "disigilo"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Ĉi dosiero ne povas esti legita uzante metodon XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "opcioj",
+            "langSelectLabel": "loka lingvo",
+            "langSelectHint": "Ŝaltilo al alia lingvo postulas restartigi la aplikaĵo",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

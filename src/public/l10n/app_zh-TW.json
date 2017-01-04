@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "設置",
+                "toolbar_feedback": "反饋",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "幫助"
+            },
+            "toolBar": {
+                "btnImport": "導入文件",
+                "btnClear": "清空",
+                "btnConvert": "轉換所有"
+            },
+            "importDialog": {
+                "title": "導入* .xls文件",
+                "prompt": "導入"
+            },
+            "output": {
+                "outputLabel": "輸出目錄",
+                "btnSelect": "選擇",
+                "selectOutputDialog": {
+                    "title": "選擇輸出目錄",
+                    "prompt": "選擇"
+                },
+                "validChecker": {
+                    "validPathMsg": "不是有效的文件夾路徑",
+                    "notWritablePathMsg": "沒有寫入權限"
+                }
+            },
+            "appDescription": "XLS文件批量轉換"
+        },
+        "view_config": {
+            "windowTitle": "導出配置",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "系統默認",
+            "btnApplyAll": "應用到所有",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "只導出選中項",
+                "InformationCaption": "信息",
+                "PreviewCaption": "預覽"
+            },
+            "PageOthers": {
+                "encodingLabel": "編碼",
+                "separatorLabel": "分隔符"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "此文件無法通過使用XLS.read方法來讀取"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "選項",
+            "langSelectLabel": "本地語言",
+            "langSelectHint": "切換其他語言需要重新啟動應用程序",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ಸೆಟ್ಟಿಂಗ್",
+                "toolbar_feedback": "ಪ್ರತಿಕ್ರಿಯೆ",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "ಸಹಾಯ"
+            },
+            "toolBar": {
+                "btnImport": "ಆಮದು ಫೈಲ್",
+                "btnClear": "ಸ್ಪಷ್ಟ",
+                "btnConvert": "ಎಲ್ಲಾ ಪರಿವರ್ತಿಸಿ"
+            },
+            "importDialog": {
+                "title": "ಆಮದು * .xls ಕಡತವನ್ನು",
+                "prompt": "ಆಮದು"
+            },
+            "output": {
+                "outputLabel": "ಔಟ್ಪುಟ್ ಕೋಶವನ್ನು",
+                "btnSelect": "ಆಯ್ಕೆ",
+                "selectOutputDialog": {
+                    "title": "ಔಟ್ಪುಟ್ ಡೈರೆಕ್ಟರಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+                    "prompt": "ಆಯ್ಕೆ"
+                },
+                "validChecker": {
+                    "validPathMsg": "ಇದು ಮಾನ್ಯ ಕೋಶ ಮಾರ್ಗ ಅಲ್ಲ",
+                    "notWritablePathMsg": "ಯಾವುದೇ ಬರೆಯಲು ಅನುಮತಿ"
+                }
+            },
+            "appDescription": "ಬ್ಯಾಚ್ ಮತಾಂತರದ XLS ಕಡತಗಳನ್ನು"
+        },
+        "view_config": {
+            "windowTitle": "ರಫ್ತು ಸಂರಚನೆ",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "ವ್ಯವಸ್ಥೆಯ ಪೂರ್ವನಿಯೋಜಿತ",
+            "btnApplyAll": "ಎಲ್ಲಾ ಅನ್ವಯಿಸು",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "ಮಾತ್ರ ಆಯ್ದ ಐಟಂಗಳನ್ನು ರಫ್ತು",
+                "InformationCaption": "ಮಾಹಿತಿ",
+                "PreviewCaption": "ಮುನ್ನೋಟ"
+            },
+            "PageOthers": {
+                "encodingLabel": "ಕೋಡಿಂಗ್",
+                "separatorLabel": "ವಿಭಾಜಕ"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "ಈ ಕಡತ ಒಂದು ವಿಧಾನವನ್ನು ಬಳಸಿಕೊಂಡು ಓದಲಾಗುವುದಿಲ್ಲ XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "ಆಯ್ಕೆಗಳು",
+            "langSelectLabel": "ಸ್ಥಳೀಯ ಭಾಷೆ",
+            "langSelectHint": "ಮತ್ತೊಂದು ಭಾಷೆಗೆ ಬದಲಾಯಿಸಿ ಅಪ್ಲಿಕೇಶನ್ ಮರುಪ್ರಾರಂಭಿಸಬೇಕಾದ",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "tautuhinga",
+                "toolbar_feedback": "Urupare",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Āwhina"
+            },
+            "toolBar": {
+                "btnImport": "Kawemai Kōnae",
+                "btnClear": "Ūkui",
+                "btnConvert": "tahuri katoa"
+            },
+            "importDialog": {
+                "title": "Kawemai kōnae .xls *",
+                "prompt": "Kawemai"
+            },
+            "output": {
+                "outputLabel": "whaiaronga huaputa",
+                "btnSelect": "tīpako",
+                "selectOutputDialog": {
+                    "title": "Tīpako whaiaronga putanga",
+                    "prompt": "tīpako"
+                },
+                "validChecker": {
+                    "validPathMsg": "Ehara i te mea he ara kōpaki whaimana",
+                    "notWritablePathMsg": "Kāore he whakaaetanga tuhituhi"
+                }
+            },
+            "appDescription": "kōnae XLS tīra faafariuhia"
+        },
+        "view_config": {
+            "windowTitle": "Kaweake Whirihoranga",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "pūnaha taunoa",
+            "btnApplyAll": "Anga ki Katoa",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Kaweake ngā tūemi kua tīpakohia anake",
+                "InformationCaption": "mōhiohio",
+                "PreviewCaption": "Arokite"
+            },
+            "PageOthers": {
+                "encodingLabel": "Tapa",
+                "separatorLabel": "kaiwhakawehe"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "e kore e taea te pānui i tēnei kōnae mā te whakamahi i te tikanga XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "kōwhiringa",
+            "langSelectLabel": "reo Local",
+            "langSelectHint": "Whakawhiti ki tetahi atu reo tā tīmata anō i te tono",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

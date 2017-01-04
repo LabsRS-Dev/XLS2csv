@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "ayar",
+                "toolbar_feedback": "geri bildirim",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "yardım et"
+            },
+            "toolBar": {
+                "btnImport": "Önemli dosya",
+                "btnClear": "Açık",
+                "btnConvert": "tüm dönüştürmek"
+            },
+            "importDialog": {
+                "title": "İthalat * .xls dosyası",
+                "prompt": "İthalat"
+            },
+            "output": {
+                "outputLabel": "çıktı dizini",
+                "btnSelect": "seçmek",
+                "selectOutputDialog": {
+                    "title": "Select çıktı dizini",
+                    "prompt": "seçmek"
+                },
+                "validChecker": {
+                    "validPathMsg": "Geçerli bir klasör yolu değil",
+                    "notWritablePathMsg": "Hiçbir yazma izni"
+                }
+            },
+            "appDescription": "Toplu dönüştürme XLS dosyaları"
+        },
+        "view_config": {
+            "windowTitle": "ihracat Yapılandırma",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "sistem varsayılanı",
+            "btnApplyAll": "Hepsine başvur",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "sadece seçili öğeler ihracat",
+                "InformationCaption": "bilgi",
+                "PreviewCaption": "Önizleme"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodlama",
+                "separatorLabel": "Ayırıcı"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Bu dosya, bir yöntem kullanılarak okunamaz XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Seçenekler",
+            "langSelectLabel": "Yerel dil",
+            "langSelectHint": "başka bir dile Aktarma uygulamasını yeniden başlatılmasını gerektirir",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

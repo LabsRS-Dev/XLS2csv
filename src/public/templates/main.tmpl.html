@@ -1,0 +1,74 @@
+<script type="text/x-kendo-template" id="tpl-main">
+
+    <header>
+        <leftArea>
+            <img data-bind="attr: { src: appLogoImgUrl }">
+            <h1 class="appLogo" data-bind="html: appName"></h1>
+        </leftArea>
+        <rightArea>
+            <group>
+                <a class="k-button"  tag-action="item-settings"><span></span></a>
+                <a class="k-button"  tag-action="item-goFeedback"><span></span></a>
+                <a class="k-button"  tag-action="item-goFAQ"><span></span></a>
+                <a class="k-button"  tag-action="item-goHelp"><span></span></a>
+            </group>
+        </rightArea>
+    </header>
+
+    <section data-bind="events: { click: toggleFocus }" id="image-container">
+        <div id="wrap" class="k-content wrap">
+            <div data-bind="events:{ click: onWrapClick}">
+                <toolBar></toolBar>
+                <dataListView>
+                </dataListView>
+                <statueBar></statueBar>
+                <div class="layer-import">
+                    <button></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+</script>
+
+<script type="text/x-kendo-template" id="tpl-datalist">
+    <fileObject style="#= css.fileObjectStyle #">
+        <content>
+            <leftArea>
+                <h4>#:name#
+                    # if (err !== "") { #
+                    <small class="text-muted">#:err#</small>
+                    # } #
+                </h4>
+                <p><small class="text-muted">#:path#</small><a tag-action="item-copy"><span class="k-font-icon k-i-copy"/></a></p>
+            </leftArea>
+            <rightArea>
+                <a class="k-button"  tag-action="item-config"><span class="k-font-icon k-i-pencil"></span></a>
+                <a class="#= css.itemRevealCss #"  tag-action="item-reveal"><span class="k-font-icon  k-i-folder-up"></span></a>
+                <a class="k-button"  tag-action="item-convert"><span class="k-font-icon #= css.itemConvertCss #"></span></a>
+                <a class="k-button"  tag-action="item-remove"><span class="k-font-icon  k-i-trash"></span></a>
+            </rightArea>
+        </content>
+        <progressbar style="#= css.progressbarStyle #"></progressbar>
+
+    </fileObject>
+</script>
+
+<script type="text/x-kendo-template" id="tpl-outputList">
+    <leftArea>
+        <group>
+            <label>#= outputLabel #</label>
+            <input tag-id="outputList-list"/>
+            <a class="k-button"  tag-action="item-select"><span class="k-font-icon k-i-folder-up"></span></a>
+        </group>
+        <group>
+            <span tag-id="validChecker"></span>
+        </group>
+    </leftArea>
+    <rightArea>
+        <group>
+        </group>
+    </rightArea>
+</script>

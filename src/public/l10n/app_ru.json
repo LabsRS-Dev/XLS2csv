@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "настройка",
+                "toolbar_feedback": "Обратная связь",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Помогите"
+            },
+            "toolBar": {
+                "btnImport": "Импортировать файл",
+                "btnClear": "Очистить",
+                "btnConvert": "Преобразовать все"
+            },
+            "importDialog": {
+                "title": "Импорт файл * .xls",
+                "prompt": "Импортировать"
+            },
+            "output": {
+                "outputLabel": "Выходной каталог",
+                "btnSelect": "Выбрать",
+                "selectOutputDialog": {
+                    "title": "Выберите выходной каталог",
+                    "prompt": "Выбрать"
+                },
+                "validChecker": {
+                    "validPathMsg": "Это не правильный путь папки",
+                    "notWritablePathMsg": "Нет прав на запись"
+                }
+            },
+            "appDescription": "Файлы XLS Пакетное конвертирование"
+        },
+        "view_config": {
+            "windowTitle": "Экспорт конфигурации",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "системные установки по умолчанию",
+            "btnApplyAll": "Применить ко всему",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Экспорт только выбранные элементы",
+                "InformationCaption": "Информация",
+                "PreviewCaption": "предварительный просмотр"
+            },
+            "PageOthers": {
+                "encodingLabel": "кодирование",
+                "separatorLabel": "Разделитель"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Этот файл не может быть считан с помощью метода XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Опции",
+            "langSelectLabel": "Местный язык",
+            "langSelectHint": "Переключение на другой язык требует перезапуска приложения",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "සැකසුම",
+                "toolbar_feedback": "ඔබෙන් ලැබෙන ප්රයෝජනාත්මක ප්රතිචාරය",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "උදව්"
+            },
+            "toolBar": {
+                "btnImport": "ආනයන ගොනුව",
+                "btnClear": "පැහැදිලිව",
+                "btnConvert": "සියලු පරිවර්තනය"
+            },
+            "importDialog": {
+                "title": "ආනයන * .xls ගොනුව",
+                "prompt": "ආනයන"
+            },
+            "output": {
+                "outputLabel": "ප්රතිදාන ඩිරෙක්ටරිය",
+                "btnSelect": "තෝරන්න",
+                "selectOutputDialog": {
+                    "title": "ප්රතිදාන ඩිරෙක්ටරිය තෝරන්න",
+                    "prompt": "තෝරන්න"
+                },
+                "validChecker": {
+                    "validPathMsg": "එය වලංගු ෆෝල්ඩරය වන්න නොවේ",
+                    "notWritablePathMsg": "කිසිදු ලියන්න අවසර"
+                }
+            },
+            "appDescription": "කණ්ඩායම ආගමට හරවා XLS ගොනු"
+        },
+        "view_config": {
+            "windowTitle": "අපනයන මානකරනය",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "පද්ධතිය ප්රකෘති",
+            "btnApplyAll": "සියලු අදාළ",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "අපනයන තෝරාගත් භාණ්ඩ පමණක්",
+                "InformationCaption": "විස්තර",
+                "PreviewCaption": "පෙරදසුන"
+            },
+            "PageOthers": {
+                "encodingLabel": "කේතනය",
+                "separatorLabel": "ෙවන්"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "මෙම ගොනුව ක්රමය භාවිතා විසින් කියවිය නොහැකි XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "විකල්ප",
+            "langSelectLabel": "දේශීය භාෂා",
+            "langSelectHint": "තවත් භාෂාවක් මාරුවෙන්න අයදුම්පත නැවත පණ ගැන්වීමකින් අවශ්ය",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

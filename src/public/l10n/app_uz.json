@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "Setting",
+                "toolbar_feedback": "aloqa",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "Yordam bering"
+            },
+            "toolBar": {
+                "btnImport": "import Fayl",
+                "btnClear": "aniq",
+                "btnConvert": "barcha aylantirish"
+            },
+            "importDialog": {
+                "title": "Import * .xls fayl",
+                "prompt": "import"
+            },
+            "output": {
+                "outputLabel": "chiqish katalog",
+                "btnSelect": "tanlang",
+                "selectOutputDialog": {
+                    "title": "Tanlang chiqish katalog",
+                    "prompt": "tanlang"
+                },
+                "validChecker": {
+                    "validPathMsg": "Bu amal jildning yo'lini emas",
+                    "notWritablePathMsg": "No yozish ruxsat"
+                }
+            },
+            "appDescription": "Ommaviy o'tkazish XLS fayllar"
+        },
+        "view_config": {
+            "windowTitle": "eksport Konfiguratsiya",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "tizim ko'rsatuv",
+            "btnApplyAll": "Barcha uchun Qo'llash",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "Faqat tanlangan ma'lumotlar eksport",
+                "InformationCaption": "axborot",
+                "PreviewCaption": "ko'rib chiqish"
+            },
+            "PageOthers": {
+                "encodingLabel": "kodlashni",
+                "separatorLabel": "separator"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "Bu fayl usuli yordamida o'qish mumkin emas XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "Options",
+            "langSelectLabel": "mahalliy til",
+            "langSelectHint": "Boshqa tilda o'tish ariza qayta talab",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}

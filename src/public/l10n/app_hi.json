@@ -1,0 +1,65 @@
+{
+    "UI": {
+        "common": {},
+        "view_main": {
+            "head": {
+                "toolbar_setting": "सेटिंग",
+                "toolbar_feedback": "प्रतिक्रिया",
+                "toolbar_FAQ": "{{FAQ}}",
+                "toolbar_help": "मदद"
+            },
+            "toolBar": {
+                "btnImport": "फ़ाइल आयात करें",
+                "btnClear": "स्पष्ट",
+                "btnConvert": "सभी को रूपांतरित करें"
+            },
+            "importDialog": {
+                "title": "आयात * .xls फ़ाइल",
+                "prompt": "आयात"
+            },
+            "output": {
+                "outputLabel": "उत्पादन निर्देशिका",
+                "btnSelect": "चुनते हैं",
+                "selectOutputDialog": {
+                    "title": "चयन करें आउटपुट निर्देशिका",
+                    "prompt": "चुनते हैं"
+                },
+                "validChecker": {
+                    "validPathMsg": "यह एक वैध फ़ोल्डर पथ नहीं है",
+                    "notWritablePathMsg": "कोई लिखने की अनुमति"
+                }
+            },
+            "appDescription": "बैच कन्वर्ट xls फ़ाइलों"
+        },
+        "view_config": {
+            "windowTitle": "निर्यात विन्यास",
+            "configInfo": "",
+            "optionSheetTitle": "{{sheet}}",
+            "optionOthersTitle": "{{others}}",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}",
+            "btnDefault": "प्रणालीगत चूक",
+            "btnApplyAll": "सब पर लागू",
+            "PageSheet": {
+                "sectionTitle": "{{Sheets select setting}}",
+                "checkBoxLabel": "केवल चयनित वस्तुओं का निर्यात",
+                "InformationCaption": "जानकारी",
+                "PreviewCaption": "पूर्वावलोकन"
+            },
+            "PageOthers": {
+                "encodingLabel": "कोडिंग",
+                "separatorLabel": "सेपरेटर"
+            },
+            "Error": {
+                "GetXLSInfoErrWithCantOpenFile": "इस फ़ाइल में एक विधि का उपयोग कर पढ़ा नहीं जा सकता XLS.read"
+            }
+        },
+        "view_settings": {
+            "windowTitle": "विकल्प",
+            "langSelectLabel": "स्थानीय भाषा",
+            "langSelectHint": "किसी अन्य भाषा में स्विच करें आवेदन शुरु की आवश्यकता है",
+            "btnCancel": "{{Cancel}}",
+            "btnOK": "{{OK}}"
+        }
+    }
+}
