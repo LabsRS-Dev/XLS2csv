@@ -656,6 +656,7 @@
 
     _$U.createUI = function () {
         var t$ = this;
+        console.log('[App.Main] 创建主页面....');
         t$._preLoadTempFile();
     };
 

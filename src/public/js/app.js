@@ -36,10 +36,11 @@
         /// 3.注册菜单命令回调
         if ($.isFunction(c$.openSettingsWindow)) {
 
-          b$.SystemMenus.setMenuProperty({
+          BS.b$.SystemMenus.setMenuProperty({
             menuTag: 903, //onMenuPreferencesAction
-            action: b$._get_callback(function (obj) {
-              c$.openSettingsWindow();
+            action: BS.b$._get_callback(function (obj) {
+              console.log('test');
+              _MC.send('settings.callSettingsView');
             }, true)
           });
 
