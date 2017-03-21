@@ -2,6 +2,10 @@
 xls文件转换成csv格式文件
 
 
+## Release Note
+https://github.com/LabsRS-Dev/XLS2csv/releases
+
+
 
 [![](http://res.cloudinary.com/dfzokzfi5/image/upload/c_scale,w_124/v1411092419/app-store-button_pw05je.png)](https://itunes.apple.com/us/app/xls2csv/id865279629?l=zh&ls=1&mt=12) https://itunes.apple.com/us/app/xls2csv/id865279629?l=zh&ls=1&mt=12
 
